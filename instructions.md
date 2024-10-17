@@ -29,6 +29,27 @@ Stack: Next.js 14 App Router, Shadcn UI, Tailwind CSS, Supabase
             - Use an AI agent to write a response to the post.
             - Store the post, response and the labels in a database.
 
+# Implementation Plan for Scraping Reddit Problems 
+- Fetch reddit threads using snoowrap
+- Enrich data using an agent
+- For ex: the openai agent can guess whats the root cause
+- Output schema:
+    problem name,
+    tags: money talks, solution request (the ones in the video)
+    post url
+- Store it in a json file for now
+
+
+   
+
+
+
+
+
+
+
+
+
 # Documentation
 How to fetch posts from reddit:
 
