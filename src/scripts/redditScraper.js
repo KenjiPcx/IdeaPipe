@@ -28,38 +28,37 @@ async function fetchPosts(subreddit, limit = 25) {
 }
 
 // Analyze post using OpenAI
-async function analyzePost(post) {
+async function analyzePost(post, subreddit) {
   try {
     const response = await openai.chat.completions.create({
       model: "gpt-3.5-turbo",
       messages: [
-        { role: "system", content: "You are a helpful assistant that analyzes Reddit posts. Respond in JSON format with 'problem' and 'question' fields." },
-        { role: "user", content: `Analyze this Reddit post and identify any problems or questions the user might have. Respond in JSON format: ${post.title}\n${post.selftext}` }
+        { role: "system", content: "You are an assistant that analyzes Reddit posts to extract problem information." },
+        { role: "user", content: `Analyze this Reddit post from r/${subreddit}. Extract the following information:
+          1. The main problem
+          2. Root cause of the problem
+          3. Main stakeholders affected
+          4. Problem severity (on a scale of 1-5, where 1 is minor and 5 is critical)
+          5. Relevant tags (choose from: money talks, solution request, advice request, pain and anger, or create new relevant tags)
+
+          Respond in JSON format with the following structure:
+          {
+            "problem": "Brief statement of the main problem",
+            "root_cause": "Identified root cause of the problem",
+            "stakeholders": ["List of main stakeholders affected"],
+            "severity": number,
+            "tags": ["List of relevant tags"]
+          }
+
+          Post content:
+          ${post.title}
+          ${post.selftext}`
+        }
       ],
     });
 
     const content = response.choices[0].message.content;
-    
-    console.log('Raw API response content:', content);
-
-    try {
-      // Attempt to parse the JSON
-      const parsedContent = JSON.parse(content);
-      return parsedContent;
-    } catch (parseError) {
-      console.error('Error parsing JSON:', parseError);
-      console.error('Problematic content:', content);
-      
-      // Attempt to extract problem and question using regex
-      const problemMatch = content.match(/problem["\s:]+(.+?)[",$\n]/i);
-      const questionMatch = content.match(/question["\s:]+(.+?)[",$\n]/i);
-      
-      return {
-        problem: problemMatch ? problemMatch[1].trim() : 'Unable to parse problem',
-        question: questionMatch ? questionMatch[1].trim() : 'Unable to parse question',
-        rawContent: content
-      };
-    }
+    return JSON.parse(content);
   } catch (error) {
     console.error('Error in API call:', error);
     return null;
@@ -78,15 +77,19 @@ async function scrapeRedditProblems() {
         const posts = await fetchPosts(subreddit);
         for (const post of posts) {
           try {
-            const analysis = await analyzePost(post);
+            const analysis = await analyzePost(post, subreddit);
             if (analysis) {
               problems.push({
-                subreddit,
-                title: post.title,
-                url: post.url,
-                problem: analysis.problem,
-                question: analysis.question,
-                rawContent: analysis.rawContent
+                subreddit: subreddit,
+                problem_name: analysis.problem,
+                root_cause: analysis.root_cause,
+                stakeholders: analysis.stakeholders,
+                severity: analysis.severity,
+                tags: analysis.tags,
+                post_url: post.url,
+                score: post.score,
+                comment_count: post.num_comments,
+                created_date: new Date(post.created_utc * 1000).toISOString(),
               });
             } else {
               console.log(`Skipping post in r/${subreddit} due to null analysis`);
