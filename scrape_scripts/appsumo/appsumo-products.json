@@ -1,0 +1,3154 @@
+[
+    {
+        "name": "Ranklytics",
+        "category": "SEO",
+        "shortDescription": "Leverage 200+ ranking signals to generate loads of SEO content that’s ready to rank",
+        "rating": "4.62",
+        "noOfRatings": "60",
+        "price": "$69"
+    },
+    {
+        "name": "Pismo",
+        "category": "Productivity",
+        "shortDescription": "An AI assistant that can rewrite, proofread, and translate whatever you’re writing",
+        "rating": "4.85",
+        "noOfRatings": "84",
+        "price": "$49"
+    },
+    {
+        "name": "SiteBehaviour",
+        "category": "Website analytics",
+        "shortDescription": "Simplify campaign tracking with this cookie-less alternative to Google Analytics",
+        "rating": "4.7",
+        "noOfRatings": "23",
+        "price": "$49"
+    },
+    {
+        "name": "Butternut AI",
+        "category": "Web builders",
+        "shortDescription": "Use this AI platform to build your dream website in seconds with prompts—without any coding",
+        "rating": "4.74",
+        "noOfRatings": "34",
+        "price": "$69"
+    },
+    {
+        "name": "VideoToPage",
+        "category": "Video",
+        "shortDescription": "Transcribe video and audio to create text content like tutorials, blog posts, or SOPs",
+        "rating": "4.65",
+        "noOfRatings": "17",
+        "price": "$69"
+    },
+    {
+        "name": "IKI.AI",
+        "category": "Productivity",
+        "shortDescription": "Create a digital library and use an AI copilot to understand whatever you’re researching",
+        "rating": "3.83",
+        "noOfRatings": "40",
+        "price": "$49"
+    },
+    {
+        "name": "Octolens",
+        "category": "Lead generation",
+        "shortDescription": "Promote your business to high-intent prospects by tracking brand mentions and keywords on social media",
+        "rating": "4.95",
+        "noOfRatings": "21",
+        "price": "$69"
+    },
+    {
+        "name": "Hopper HQ",
+        "category": "Social media",
+        "shortDescription": "Schedule content across accounts and drive followers to landing pages with a branded “link in bio”",
+        "rating": "4.71",
+        "noOfRatings": "14",
+        "price": "$59"
+    },
+    {
+        "name": "SparkReceipt",
+        "category": "Productivity",
+        "shortDescription": "AI receipt scanner, document manager and expense tracker for freelancers and small business",
+        "rating": "4.9",
+        "noOfRatings": "162",
+        "price": "$39"
+    },
+    {
+        "name": "Kroto",
+        "category": "Productivity",
+        "shortDescription": "Auto-generate how-to videos and step-by-step guides to host on your custom-built knowledge base",
+        "rating": "3.64",
+        "noOfRatings": "14",
+        "price": "$59"
+    },
+    {
+        "name": "Scrab.in",
+        "category": "Lead generation",
+        "shortDescription": "Automate all your actions on LinkedIn with this lead generation platform",
+        "rating": "4.69",
+        "noOfRatings": "16",
+        "price": "$59"
+    },
+    {
+        "name": "Evolup",
+        "category": "Ecommerce",
+        "shortDescription": "Launch and manage affiliate websites easily using a suite of AI-powered tools",
+        "rating": "4.25",
+        "noOfRatings": "24",
+        "price": "$49"
+    },
+    {
+        "name": "InsertChat",
+        "category": "Customer support",
+        "shortDescription": "Build and automate AI chatbots that can engage, guide, and sell to users 24/7",
+        "rating": "4.41",
+        "noOfRatings": "66",
+        "price": "$79"
+    },
+    {
+        "name": "Diffshop",
+        "category": "Ecommerce",
+        "shortDescription": "Identify trending products across social media and ecommerce sites with this trend discovery tool",
+        "rating": "4.15",
+        "noOfRatings": "13",
+        "price": "$69"
+    },
+    {
+        "name": "SurveyNoodle",
+        "category": "Survey software",
+        "shortDescription": "Create intelligent customer surveys and track user sentiment with AI",
+        "rating": "4.45",
+        "noOfRatings": "11",
+        "price": "$69"
+    },
+    {
+        "name": "Binder",
+        "category": "Productivity",
+        "shortDescription": "Control access to shared files, track engagement, collect e-signatures, and create secure data rooms",
+        "rating": "4.33",
+        "noOfRatings": "6",
+        "price": "$39"
+    },
+    {
+        "name": "Legitt AI",
+        "category": "Productivity",
+        "shortDescription": "Use this AI platform to create, sign, track, and manage legally-binding contracts and proposals",
+        "rating": "4.67",
+        "noOfRatings": "3",
+        "price": "$59"
+    },
+    {
+        "name": "Blastable",
+        "category": "Email marketing",
+        "shortDescription": "Optimize deliverability with AI, set up unlimited autoresponders, automate tasks, and more",
+        "rating": "4.2",
+        "noOfRatings": "5",
+        "price": "$69"
+    },
+    {
+        "name": "Signum.AI",
+        "category": "Lead generation",
+        "shortDescription": "Unlock insights about your target personas and business needs with this AI-powered monitoring platform",
+        "rating": "5",
+        "noOfRatings": "1",
+        "price": "$59"
+    },
+    {
+        "name": "OneSuite",
+        "category": "Project management",
+        "shortDescription": "Manage leads, projects, and invoicing for agency clients from a single platform",
+        "rating": "4.2",
+        "noOfRatings": "5",
+        "price": "$69"
+    },
+    {
+        "name": "SeoRocket.ai",
+        "category": "SEO",
+        "shortDescription": "Boost site traffic with AI-powered SEO tools and keyword research",
+        "rating": "3",
+        "noOfRatings": "6",
+        "price": "$59"
+    },
+    {
+        "name": "Blue",
+        "category": "Project management",
+        "shortDescription": "Streamline your workflows with this simple and powerful project management system",
+        "rating": "4.68",
+        "noOfRatings": "174",
+        "price": "$59"
+    },
+    {
+        "name": "Brizy Cloud",
+        "category": "Web builders",
+        "shortDescription": "Drag and drop your way to stunning client websites with this AI-powered site builder",
+        "rating": "4.46",
+        "noOfRatings": "100",
+        "price": "$59"
+    },
+    {
+        "name": "AskYourDatabase",
+        "category": "Website analytics",
+        "shortDescription": "CEO/CTOs, managers, marketers who need to make ad-hoc data queries against their database",
+        "rating": "5",
+        "noOfRatings": "2",
+        "price": "$69"
+    },
+    {
+        "name": "TidyCal",
+        "category": "Calendar & scheduling",
+        "shortDescription": "Seamlessly manage your calendar and get more bookings using this powerful scheduling tool",
+        "rating": "4.57",
+        "noOfRatings": "561",
+        "price": "$29"
+    },
+    {
+        "name": "Tarvent",
+        "category": "Email marketing",
+        "shortDescription": "Access email marketing, marketing automation, and transactional email tools with this all-in-one platform",
+        "rating": "4.53",
+        "noOfRatings": "19",
+        "price": "$69"
+    },
+    {
+        "name": "Fraud Blocker - Plus Exclusive",
+        "category": "Lead generation",
+        "shortDescription": "Stop fraudulent and accidental clicks from draining your ad spend for Google and Facebook ad campaigns",
+        "rating": "4.52",
+        "noOfRatings": "66",
+        "price": "$59"
+    },
+    {
+        "name": "Zync",
+        "category": "Video",
+        "shortDescription": "Use this AI-powered recording studio to create talking head videos that build your personal brand",
+        "rating": "4.83",
+        "noOfRatings": "6",
+        "price": "$39"
+    },
+    {
+        "name": "GenPage",
+        "category": "Lead generation",
+        "shortDescription": "Increase your outbound conversion rate with a powerful ABM landing page builder",
+        "rating": "4.59",
+        "noOfRatings": "17",
+        "price": "$69"
+    },
+    {
+        "name": "Video To Blog",
+        "category": "Content marketing",
+        "shortDescription": "Convert YouTube videos into SEO blog articles in a matter of seconds",
+        "rating": "4.91",
+        "noOfRatings": "55",
+        "price": "$49"
+    },
+    {
+        "name": "Rocky AI",
+        "category": "Course builders",
+        "shortDescription": "Use this white-label AI coaching solution to offer 24/7 personalized coaching and scale your expertise",
+        "rating": "5",
+        "noOfRatings": "3",
+        "price": "$59"
+    },
+    {
+        "name": "Acadle",
+        "category": "Customer onboarding",
+        "shortDescription": "Create engaging, interactive course content for customer onboarding and employee training",
+        "rating": "4.91",
+        "noOfRatings": "272",
+        "price": "$99"
+    },
+    {
+        "name": "Leadfwd",
+        "category": "Lead generation",
+        "shortDescription": "Combine LinkedIn prospecting and outreach with personalized, AI-assisted cold email automation",
+        "rating": "5",
+        "noOfRatings": "3",
+        "price": "$49"
+    },
+    {
+        "name": "MimicPC",
+        "category": "Visual design",
+        "shortDescription": "MimicPC offers hassle-free access to user-friendly AI apps on the cloud",
+        "rating": "4.82",
+        "noOfRatings": "45",
+        "price": "$49"
+    },
+    {
+        "name": "Qura",
+        "category": "Social media",
+        "shortDescription": "Drive engagement and growth on X and LinkedIn with this social media copilot",
+        "rating": "1.67",
+        "noOfRatings": "3",
+        "price": "$39"
+    },
+    {
+        "name": "RanksPro",
+        "category": "SEO",
+        "shortDescription": "All-in-one SEO tool for rank tracking, competitor & keyword analysis, site audit, backlink analysis",
+        "rating": "4.82",
+        "noOfRatings": "39",
+        "price": "$59"
+    },
+    {
+        "name": "AppMySite",
+        "category": "Native app builders",
+        "shortDescription": "Use this no-code app builder to build Android and iOS apps in minutes",
+        "rating": "4.47",
+        "noOfRatings": "281",
+        "price": "$69"
+    },
+    {
+        "name": "PowerIn",
+        "category": "Marketing management",
+        "shortDescription": "Automate comments on Twitter (X) and LinkedIn with AI",
+        "rating": "5",
+        "noOfRatings": "1",
+        "price": "$39"
+    },
+    {
+        "name": "Followr",
+        "category": "Social media",
+        "shortDescription": "Transform your social media strategy with cutting-edge AI-powered tools",
+        "rating": "4.13",
+        "noOfRatings": "161",
+        "price": "$29"
+    },
+    {
+        "name": "Doplac",
+        "category": "CRM",
+        "shortDescription": "Close more clients with this digital agency-focused CRM software",
+        "rating": "4.62",
+        "noOfRatings": "13",
+        "price": "$79"
+    },
+    {
+        "name": "Transcript.LOL",
+        "category": "Audio",
+        "shortDescription": "Transcripts and insights from videos, podcasts, or meeting - summary, topics, Tweets, & blog posts",
+        "rating": "4.71",
+        "noOfRatings": "132",
+        "price": "$39"
+    },
+    {
+        "name": "SendFox",
+        "category": "Email marketing",
+        "shortDescription": "Schedule and automate your email growth with this affordable email marketing tool",
+        "rating": "4.28",
+        "noOfRatings": "266",
+        "price": "$49"
+    },
+    {
+        "name": "GoZen HyperReach.Ai",
+        "category": "Lead generation",
+        "shortDescription": "Identify anonymous website visitors and add them to your automated email outreach",
+        "rating": "4.92",
+        "noOfRatings": "12",
+        "price": "$59"
+    },
+    {
+        "name": "viewflip",
+        "category": "Remote collaboration",
+        "shortDescription": "Grant remote control over your screen or window to co-work or get expert technical support",
+        "rating": "4.8",
+        "noOfRatings": "5",
+        "price": "$49"
+    },
+    {
+        "name": "Claspo",
+        "category": "Lead generation",
+        "shortDescription": "Create no-code pop-ups in just minutes to generate more leads and boost conversions",
+        "rating": "5",
+        "noOfRatings": "17",
+        "price": "$49"
+    },
+    {
+        "name": "Tapflow",
+        "category": "HR",
+        "shortDescription": "Use this AI talent-sourcing tool to find and hire the best talent on LinkedIn",
+        "rating": "5",
+        "noOfRatings": "7",
+        "price": "$59"
+    },
+    {
+        "name": "mavic",
+        "category": "Social media",
+        "shortDescription": "mavic is your business's AI brand marketer for strategy, ideation, content creation and publishing",
+        "rating": "4.8",
+        "noOfRatings": "20",
+        "price": "$59"
+    },
+    {
+        "name": "AahSheet",
+        "category": "SEO",
+        "shortDescription": "Use this AI content suite for Google Sheets to automate and scale content creation",
+        "rating": "5",
+        "noOfRatings": "16",
+        "price": "$59"
+    },
+    {
+        "name": "Emailit",
+        "category": "Email marketing",
+        "shortDescription": "No-subscription email sending API for developers",
+        "rating": "4.77",
+        "noOfRatings": "22",
+        "price": "$29"
+    },
+    {
+        "name": "ZeroBounce Email Verification",
+        "category": "Email marketing",
+        "shortDescription": "We help you connect with your customers and increase ROI with our 99% accurate email validation",
+        "rating": "4.33",
+        "noOfRatings": "6",
+        "price": "$89"
+    },
+    {
+        "name": "KingSumo",
+        "category": "Lead generation",
+        "shortDescription": "Grow your audience with viral giveaways that cut marketing costs",
+        "rating": "4.06",
+        "noOfRatings": "52",
+        "price": "FREE"
+    },
+    {
+        "name": "Taja",
+        "category": "Video",
+        "shortDescription": "Taja allows you to publish YouTube content 10x faster by creating everything you need in 8 minutes",
+        "rating": "4.7",
+        "noOfRatings": "88",
+        "price": "$49"
+    },
+    {
+        "name": "Reoon Email Verifier",
+        "category": "Email marketing",
+        "shortDescription": "The most accurate email validation service that cleans invalid, temporary & unsafe email addresses",
+        "rating": "4.95",
+        "noOfRatings": "563",
+        "price": "$79"
+    },
+    {
+        "name": "Socrates",
+        "category": "Productivity",
+        "shortDescription": "Instant Answers from your private files on Win, Mac, or web",
+        "rating": "4.76",
+        "noOfRatings": "17",
+        "price": "$19"
+    },
+    {
+        "name": "Sociamonials",
+        "category": "Social media",
+        "shortDescription": "Take over social media with automated posting, viral giveaways, and advanced metrics",
+        "rating": "4.33",
+        "noOfRatings": "202",
+        "price": "$69"
+    },
+    {
+        "name": "Fox Signals",
+        "category": "Crypto",
+        "shortDescription": "Fox Signals is an AI-powered platform generating highly accurate cryptocurrency buy signals",
+        "rating": "4.64",
+        "noOfRatings": "45",
+        "price": "$69"
+    },
+    {
+        "name": "Job Boardly",
+        "category": "Web builders",
+        "shortDescription": "Launch and monetize your own job board with this flexible builder",
+        "rating": "1",
+        "noOfRatings": "1",
+        "price": "$79"
+    },
+    {
+        "name": "Pin Generator - Automated Pinterest Marketing",
+        "category": "Marketing management",
+        "shortDescription": "The FASTEST Pinterest marketing solution. Generate and Automate content quickly.",
+        "rating": "4.36",
+        "noOfRatings": "75",
+        "price": "$99"
+    },
+    {
+        "name": "Lancepilot",
+        "category": "CRM",
+        "shortDescription": "Run WhatsApp marketing campaigns, tracking, scheduling & CRM",
+        "rating": "4.88",
+        "noOfRatings": "40",
+        "price": "$59"
+    },
+    {
+        "name": "BreezeDoc",
+        "category": "Productivity",
+        "shortDescription": "Use this dynamic electronic signature tool to simplify your document signing process",
+        "rating": "3.93",
+        "noOfRatings": "59",
+        "price": "FREE"
+    },
+    {
+        "name": "Writeseed - AI Content Writer",
+        "category": "Content marketing",
+        "shortDescription": "The most complete AI writer on the market with 70+ templates, a Chrome extension & unlimited usage",
+        "rating": "4.81",
+        "noOfRatings": "107",
+        "price": "$44"
+    },
+    {
+        "name": "Visitor Tracking - Unlimited Website Tracking",
+        "category": "Website analytics",
+        "shortDescription": "Track UNLIMITED websites. Funnel tracking, visitor streaming, conversion tracking and more!",
+        "rating": "4.88",
+        "noOfRatings": "218",
+        "price": "$59"
+    },
+    {
+        "name": "Formly - Forms, Surveys & Quizzes",
+        "category": "Form builders",
+        "shortDescription": "Formly is a no-code form, survey, and quiz builder that makes data collection easy and fun",
+        "rating": "4.62",
+        "noOfRatings": "132",
+        "price": "$89"
+    },
+    {
+        "name": "Periodix",
+        "category": "Lead generation",
+        "shortDescription": "Let this AI autopilot tackle every stage of your LinkedIn outreach to generate more leads in less time",
+        "rating": "4",
+        "noOfRatings": "13",
+        "price": "$79"
+    },
+    {
+        "name": "GoBrunch",
+        "category": "Community builders",
+        "shortDescription": "Make your online meetings more fun, engaging, and interactive",
+        "rating": "4.9",
+        "noOfRatings": "262",
+        "price": "$79"
+    },
+    {
+        "name": "MyMemo",
+        "category": "Cloud services & hosting",
+        "shortDescription": "Enhance your digital memory with AI-driven knowledge management",
+        "rating": "4.36",
+        "noOfRatings": "50",
+        "price": "$29"
+    },
+    {
+        "name": "LeadRocks",
+        "category": "Lead generation",
+        "shortDescription": "LeadRocks is a reliable B2B contact database with 100M+ records, emails, phone numbers, and LinkedIns",
+        "rating": "4.65",
+        "noOfRatings": "344",
+        "price": "$79"
+    },
+    {
+        "name": "Interactive Shell",
+        "category": "Development tools",
+        "shortDescription": "Instant access web terminals with an interactive IDE",
+        "rating": "4",
+        "noOfRatings": "1",
+        "price": "$19"
+    },
+    {
+        "name": "Charla",
+        "category": "Customer support",
+        "shortDescription": "Connect with your site visitors instantly with our live chat software",
+        "rating": "5",
+        "noOfRatings": "19",
+        "price": "$39"
+    },
+    {
+        "name": "MrZeroCode",
+        "category": "Web builders",
+        "shortDescription": "Build stunning websites fast with this AI-powered, no-code platform",
+        "rating": "4.08",
+        "noOfRatings": "12",
+        "price": "$49"
+    },
+    {
+        "name": "NoCodeBackend",
+        "category": "Native app builders",
+        "shortDescription": "Create custom REST APIs from scratch in minutes without writing any code",
+        "rating": "4.8",
+        "noOfRatings": "10",
+        "price": "$49"
+    },
+    {
+        "name": "WP Reset Pro Plan",
+        "category": "Development tools",
+        "shortDescription": "Reset, recover, and repair your WordPress site in no time",
+        "rating": "4.93",
+        "noOfRatings": "1,306",
+        "price": "$49"
+    },
+    {
+        "name": "SiteGuru",
+        "category": "SEO",
+        "shortDescription": "Improve and monitor your website's rankings with an actionable SEO todo-list",
+        "rating": "4.96",
+        "noOfRatings": "482",
+        "price": "$69"
+    },
+    {
+        "name": "Growify",
+        "category": "Marketing management",
+        "shortDescription": "Maximize ROAS from your Google and Meta ads using this AI-powered marketing dashboard",
+        "rating": "3.9",
+        "noOfRatings": "21",
+        "price": "$69"
+    },
+    {
+        "name": "Switchy",
+        "category": "Lead generation",
+        "shortDescription": "Boost engagement and conversions with custom retargeting links",
+        "rating": "4.89",
+        "noOfRatings": "245",
+        "price": "$39"
+    },
+    {
+        "name": "XInterview AI",
+        "category": "HR",
+        "shortDescription": "Traditional hiring is expensive, so minimize time to hire with XInterview, your own hiring buddy",
+        "rating": "4.95",
+        "noOfRatings": "39",
+        "price": "$79"
+    },
+    {
+        "name": "MarkupGo",
+        "category": "Development tools",
+        "shortDescription": "Automate your image and PDF conversions with a single, powerful API",
+        "rating": "5",
+        "noOfRatings": "22",
+        "price": "$49"
+    },
+    {
+        "name": "GutenKit",
+        "category": "Web builders",
+        "shortDescription": "Use this WordPress plugin to transform Gutenberg into a dynamic page builder—no coding required",
+        "rating": "4.1",
+        "noOfRatings": "20",
+        "price": "$59"
+    },
+    {
+        "name": "BunnyDoc",
+        "category": "Legal",
+        "shortDescription": "Prepare, send, sign, and track legally binding documents—all in one convenient location",
+        "rating": "4.7",
+        "noOfRatings": "47",
+        "price": "$69"
+    },
+    {
+        "name": "SUPERMACHINE",
+        "category": "Content marketing",
+        "shortDescription": "Generate stock photos, art, and images with the latest in AI technology",
+        "rating": "4.08",
+        "noOfRatings": "327",
+        "price": "$79"
+    },
+    {
+        "name": "VanChat",
+        "category": "Customer support",
+        "shortDescription": "AI chatbots for Shopify stores that fully replace human agents, accelerating revenue growth",
+        "rating": "5",
+        "noOfRatings": "12",
+        "price": "$59"
+    },
+    {
+        "name": "OnlineCourseHost.com",
+        "category": "Course builders",
+        "shortDescription": "AI-powered white-label online course platform with built-in community. Sell courses online.",
+        "rating": "4.66",
+        "noOfRatings": "140",
+        "price": "$99"
+    },
+    {
+        "name": "GOOSE VPN",
+        "category": "Privacy",
+        "shortDescription": "Browse the web anonymously and protect your data with a secure VPN service",
+        "rating": "3.92",
+        "noOfRatings": "138",
+        "price": "$29"
+    },
+    {
+        "name": "Forento",
+        "category": "Course builders",
+        "shortDescription": "The easiest way to create your own course or membership platform - perfect for coaches & educators",
+        "rating": "4.86",
+        "noOfRatings": "81",
+        "price": "$39"
+    },
+    {
+        "name": "Linksy",
+        "category": "SEO",
+        "shortDescription": "Build the internal links every search engine approves with NLP capabilities you can trust",
+        "rating": "4.19",
+        "noOfRatings": "54",
+        "price": "$69"
+    },
+    {
+        "name": "Vivomeetings",
+        "category": "Webinars & streaming",
+        "shortDescription": "Host remote meetings, courses, and events with breakout rooms, polls, Q&As, live chat, and more",
+        "rating": "4.83",
+        "noOfRatings": "52",
+        "price": "$72"
+    },
+    {
+        "name": "Vmaker AI",
+        "category": "Video",
+        "shortDescription": "Use this AI-powered online video editor to turn raw footage into edited videos and clips",
+        "rating": "4.25",
+        "noOfRatings": "76",
+        "price": "$59"
+    },
+    {
+        "name": "Unmixr AI - Text to Speech, AI Chat (GPT-4,Claude-3 & more) & Copywriting",
+        "category": "Content marketing",
+        "shortDescription": "Unmixr AI: Most natural emotion based AI text-to-speech, Dubbing, and AI Chatbot & copywriting tools",
+        "rating": "4.5",
+        "noOfRatings": "64",
+        "price": "$79"
+    },
+    {
+        "name": "Afficone",
+        "category": "Sales management",
+        "shortDescription": "All-in-one affiliate software for SaaS and E-commerce - made for Stripe, Shopify & WooCommerce",
+        "rating": "4.5",
+        "noOfRatings": "6",
+        "price": "$59"
+    },
+    {
+        "name": "Mystrika",
+        "category": "Email marketing",
+        "shortDescription": "Maximize your sales potential with Mystrika -- more replies, more revenue, less effort",
+        "rating": "4.48",
+        "noOfRatings": "64",
+        "price": "$125"
+    },
+    {
+        "name": "Zylvie - High-Converting Cart Software",
+        "category": "Ecommerce",
+        "shortDescription": "Sell digital products and subscriptions with zero commissions using high-converting sales funnels",
+        "rating": "4.77",
+        "noOfRatings": "31",
+        "price": "$59"
+    },
+    {
+        "name": "Group Collector",
+        "category": "Lead generation",
+        "shortDescription": "A must-have tool for every Facebook group owner to automate new group members onboarding",
+        "rating": "4.74",
+        "noOfRatings": "89",
+        "price": "$79"
+    },
+    {
+        "name": "Trackabi Time Tracker App",
+        "category": "HR",
+        "shortDescription": "Trackabi is a platform for time tracking, employee monitoring and leave management",
+        "rating": "4.76",
+        "noOfRatings": "150",
+        "price": "$99"
+    },
+    {
+        "name": "FlipBooklets",
+        "category": "Content marketing",
+        "shortDescription": "Convert your PDFs into beautiful PDF FlipBooks in seconds -- simply upload & publish",
+        "rating": "4.85",
+        "noOfRatings": "98",
+        "price": "$49"
+    },
+    {
+        "name": "KWHero",
+        "category": "Content marketing",
+        "shortDescription": "Use AI to create content that’s perfectly optimized for search engines and user intent",
+        "rating": "4.52",
+        "noOfRatings": "63",
+        "price": "$79"
+    },
+    {
+        "name": "Viinyx",
+        "category": "Productivity",
+        "shortDescription": "All-in-one AI browser assistant that lets you generate any text or image anywhere on the web",
+        "rating": "4.88",
+        "noOfRatings": "17",
+        "price": "$19"
+    },
+    {
+        "name": "BerqWP",
+        "category": "SEO",
+        "shortDescription": "Boost WordPress PageSpeed & Core Web Vitals Automatically, Eliminate the Need for Multiple Plugins.",
+        "rating": "3.68",
+        "noOfRatings": "19",
+        "price": "$39"
+    },
+    {
+        "name": "Sheet2DB",
+        "category": "Development tools",
+        "shortDescription": "Transform spreadsheets into a JSON API",
+        "rating": "5",
+        "noOfRatings": "7",
+        "price": "$59"
+    },
+    {
+        "name": "Insecure Web",
+        "category": "Security",
+        "shortDescription": "Enhance your brand's security with proactive digital surveillance",
+        "rating": "4.65",
+        "noOfRatings": "37",
+        "price": "$87"
+    },
+    {
+        "name": "Camelo",
+        "category": "Calendar & scheduling",
+        "shortDescription": "Create work schedules, track work hours, and message your team easily",
+        "rating": "5",
+        "noOfRatings": "5",
+        "price": "$29"
+    },
+    {
+        "name": "Tiny Talk",
+        "category": "Customer support",
+        "shortDescription": "Create AI chatbots trained websites/docs, integrate with WhatsApp or APIs, embed in websites fast",
+        "rating": "4.58",
+        "noOfRatings": "12",
+        "price": "$49"
+    },
+    {
+        "name": "Upsell Plugin",
+        "category": "Ecommerce",
+        "shortDescription": "Build unlimited sales funnels and custom checkout pages for your site with this WordPress plugin",
+        "rating": "5",
+        "noOfRatings": "3",
+        "price": "$69"
+    },
+    {
+        "name": "Wiz Write",
+        "category": "Productivity",
+        "shortDescription": "Speaking gives your thoughts clarity; using your voice to interact with AI unlocks superpowers",
+        "rating": "4.68",
+        "noOfRatings": "31",
+        "price": "$59"
+    },
+    {
+        "name": "UPDF - PDF Editor All Platforms for Individuals",
+        "category": "Productivity",
+        "shortDescription": "UPDF - Edit, annotate, convert, organize, and sign PDF with OCR on Windows/Mac/ iOS/Android.",
+        "rating": "4.67",
+        "noOfRatings": "126",
+        "price": "$59"
+    },
+    {
+        "name": "TopicMojo",
+        "category": "Marketing management",
+        "shortDescription": "Discover what your customers are searching for and explore new opportunities for ecommerce, sales, education, and more",
+        "rating": "4.74",
+        "noOfRatings": "175",
+        "price": "$59"
+    },
+    {
+        "name": "Tykr",
+        "category": "Investing",
+        "shortDescription": "Buy and Sell stocks with confidence!",
+        "rating": "4.89",
+        "noOfRatings": "168",
+        "price": "$149"
+    },
+    {
+        "name": "Push Lap Growth",
+        "category": "Marketing management",
+        "shortDescription": "Launch your SaaS affiliate program in 10 minutes—manage, track and find* affiliates",
+        "rating": "4.9",
+        "noOfRatings": "10",
+        "price": "$59"
+    },
+    {
+        "name": "Desklog",
+        "category": "HR",
+        "shortDescription": "Time tracking software to track work hours, project & tasks",
+        "rating": "4.56",
+        "noOfRatings": "18",
+        "price": "$33"
+    },
+    {
+        "name": "Contact Button",
+        "category": "Customer support",
+        "shortDescription": "Contact Button is an all-in-one website widget that increases engagement and captures new leads",
+        "rating": "5",
+        "noOfRatings": "9",
+        "price": "$19"
+    },
+    {
+        "name": "Blogify",
+        "category": "Content marketing",
+        "shortDescription": "Revolutionize blogging with Blogify: Video/anything-to-blog, AI writing, SEO, autopilot posts & more",
+        "rating": "4.49",
+        "noOfRatings": "132",
+        "price": "$79"
+    },
+    {
+        "name": "Email Verifier & Blacklist Shield by BrandNav",
+        "category": "Email marketing",
+        "shortDescription": "Say goodbye to spam folders, email blacklists & bounce backs with Email Verifier & Blacklist Shield",
+        "rating": "4.62",
+        "noOfRatings": "40",
+        "price": "$49"
+    },
+    {
+        "name": "Bit Integrations",
+        "category": "Development tools",
+        "shortDescription": "Connect WordPress Plugins and external applications seamlessly to save time and simplify automations",
+        "rating": "4.53",
+        "noOfRatings": "74",
+        "price": "$49"
+    },
+    {
+        "name": "Sinosend",
+        "category": "Productivity",
+        "shortDescription": "Effortless file transfers and document tracking for modern businesses",
+        "rating": "5",
+        "noOfRatings": "9",
+        "price": "$29"
+    },
+    {
+        "name": "FlipLink.me",
+        "category": "Content marketing",
+        "shortDescription": "Turn your PDFs into online Flipbooks with FlipLink & customize, share, and analyze how they perform",
+        "rating": "4.89",
+        "noOfRatings": "228",
+        "price": "$129"
+    },
+    {
+        "name": "Support Board",
+        "category": "Customer support",
+        "shortDescription": "Live Chat and Chatbot by OpenAI & ChatGPT. Support for WhatsApp, Messenger, Telegram, Email, SMS ...",
+        "rating": "4.55",
+        "noOfRatings": "62",
+        "price": "$69"
+    },
+    {
+        "name": "SmatLeads",
+        "category": "Lead generation",
+        "shortDescription": "Find high-paying, easy-to-close leads for your local business or agency",
+        "rating": "4.76",
+        "noOfRatings": "79",
+        "price": "$69"
+    },
+    {
+        "name": "Deftform",
+        "category": "Lead generation",
+        "shortDescription": "Create shareable and embeddable forms that just work",
+        "rating": "5",
+        "noOfRatings": "17",
+        "price": "$49"
+    },
+    {
+        "name": "Open eLMS",
+        "category": "Course builders",
+        "shortDescription": "Open eLMS AI creates quality eLearning courses from an uploaded document or single line of text",
+        "rating": "3.36",
+        "noOfRatings": "11",
+        "price": "$59"
+    },
+    {
+        "name": "Reoon Lead Scraper (YellowPages)",
+        "category": "Lead generation",
+        "shortDescription": "Scraping data from Yellow Pages has never been this simple",
+        "rating": "4.89",
+        "noOfRatings": "74",
+        "price": "$85"
+    },
+    {
+        "name": "Easy Text Marketing Agency Platform",
+        "category": "SMS",
+        "shortDescription": "Start Your Money Making Text Marketing Agency Now!",
+        "rating": "4.73",
+        "noOfRatings": "60",
+        "price": "$89"
+    },
+    {
+        "name": "Labrika",
+        "category": "SEO",
+        "shortDescription": "Boost your website’s SEO with AI-driven insights and actionable recommendations",
+        "rating": "4.87",
+        "noOfRatings": "135",
+        "price": "$68"
+    },
+    {
+        "name": "BeHuman.Online",
+        "category": "Webinars & streaming",
+        "shortDescription": "Virtual conference / expo / coaching / meet-up platform that engages attendees",
+        "rating": "4.8",
+        "noOfRatings": "15",
+        "price": "$49"
+    },
+    {
+        "name": "GAJIX",
+        "category": "Productivity",
+        "shortDescription": "AI learning assistant that helps you to learn any subject -- faster",
+        "rating": "4.49",
+        "noOfRatings": "83",
+        "price": "$49"
+    },
+    {
+        "name": "CVViZ",
+        "category": "HR",
+        "shortDescription": "Streamline your hiring process and improve your quality of hire",
+        "rating": "4.46",
+        "noOfRatings": "52",
+        "price": "$99"
+    },
+    {
+        "name": "Pixelied",
+        "category": "Visual design",
+        "shortDescription": "Use this AI-powered design suite to create eye-catching graphics in minutes",
+        "rating": "4.87",
+        "noOfRatings": "514",
+        "price": "$49"
+    },
+    {
+        "name": "SheetMagic: ChatGPT + Google Sheets Integration",
+        "category": "SEO",
+        "shortDescription": "Use ChatGPT in Google Sheets, create bulk AI content, & automate your AI work. (formerly SheetGPT)",
+        "rating": "4.79",
+        "noOfRatings": "241",
+        "price": "$69"
+    },
+    {
+        "name": "More Good Reviews",
+        "category": "Feedback management",
+        "shortDescription": "Get more good reviews from your customers to build your reputation and get more sales.",
+        "rating": "4.91",
+        "noOfRatings": "53",
+        "price": "$59"
+    },
+    {
+        "name": "CloudStick",
+        "category": "Cloud services & hosting",
+        "shortDescription": "Deploy and manage WordPress, Laravel, and Codeigniter on cloud servers using our cloud control panel",
+        "rating": "4.39",
+        "noOfRatings": "44",
+        "price": "$39"
+    },
+    {
+        "name": "WPAutoBlog",
+        "category": "Content marketing",
+        "shortDescription": "Generate professional AI articles at scale, and have them posted directly on your Wordpress Blog",
+        "rating": "4.82",
+        "noOfRatings": "82",
+        "price": "$39"
+    },
+    {
+        "name": "LouiseBot",
+        "category": "Customer support",
+        "shortDescription": "Engage, support, and sell to prospects with chatbots that integrate text, voice, and your own videos",
+        "rating": "3.67",
+        "noOfRatings": "3",
+        "price": "$49"
+    },
+    {
+        "name": "ProductLift",
+        "category": "Feedback management",
+        "shortDescription": "Transform feedback into action by streamlining customer insights to build your roadmap in minutes",
+        "rating": "4.92",
+        "noOfRatings": "51",
+        "price": "$49"
+    },
+    {
+        "name": "ElkQR",
+        "category": "Content marketing",
+        "shortDescription": "Boost your business with ElkQR -- the ultimate tool for generating and managing secure QR codes",
+        "rating": "4.9",
+        "noOfRatings": "102",
+        "price": "$39"
+    },
+    {
+        "name": "DivMagic",
+        "category": "Development tools",
+        "shortDescription": "Copy design from any website, copy code of any web element with one click, and even convert formats",
+        "rating": "4.68",
+        "noOfRatings": "31",
+        "price": "$49"
+    },
+    {
+        "name": "Katteb",
+        "category": "Content marketing",
+        "shortDescription": "Generate fact-checked, SEO-friendly content with this powerful AI article writer",
+        "rating": "4.66",
+        "noOfRatings": "671",
+        "price": "$39"
+    },
+    {
+        "name": "IdeaBuddy",
+        "category": "Productivity",
+        "shortDescription": "Turn your business ideas into reality with our all-in-one business planning software, powered by AI",
+        "rating": "4.8",
+        "noOfRatings": "40",
+        "price": "$69"
+    },
+    {
+        "name": "Subpage",
+        "category": "Lead generation",
+        "shortDescription": "Create effective lead magnets and collect leads effortlessly",
+        "rating": "5",
+        "noOfRatings": "3",
+        "price": "$59"
+    },
+    {
+        "name": "Produktly",
+        "category": "Customer onboarding",
+        "shortDescription": "Product tours, checklists, feedback widgets, changelogs, roadmaps & more!",
+        "rating": "4.5",
+        "noOfRatings": "22",
+        "price": "$79"
+    },
+    {
+        "name": "Local Scraper - Lead Generation Software",
+        "category": "Lead generation",
+        "shortDescription": "The original 7-in-1 lead generation software that lets you scrape the largest maps sites for leads.",
+        "rating": "4.55",
+        "noOfRatings": "29",
+        "price": "$99"
+    },
+    {
+        "name": "Hirevire",
+        "category": "HR",
+        "shortDescription": "Collect video interviews from job applicants -- make your traditional interviews better",
+        "rating": "4.95",
+        "noOfRatings": "66",
+        "price": "$129"
+    },
+    {
+        "name": "iTubeGo for Windows",
+        "category": "Video",
+        "shortDescription": "Download full HD/4K/8K videos from YouTube, Vimeo and more than 10,000+ websites at high speed with iTubeGo. ***This version is for Windows users! Check out the Mac version here.*** Full features: -Download YouTube videos, audios, playlists, channels in one click. -Convert YouTube to mp4, mp3, mov,",
+        "rating": "4.69",
+        "noOfRatings": "29",
+        "price": "$19.95"
+    },
+    {
+        "name": "WhatsApp Widget and Inbox | Capture more leads (2024)",
+        "category": "Lead generation",
+        "shortDescription": "The Best WhatsApp Widget for any Website, Landing page or Social Media. Now WhatsApp Inbox included",
+        "rating": "4.9",
+        "noOfRatings": "51",
+        "price": "$74.99"
+    },
+    {
+        "name": "Worklenz",
+        "category": "Project management",
+        "shortDescription": "Meet your new all-in-one project maestro",
+        "rating": "4.62",
+        "noOfRatings": "13",
+        "price": "$79"
+    },
+    {
+        "name": "Formberry",
+        "category": "Form builders",
+        "shortDescription": "Build stunning forms and surveys",
+        "rating": "4.13",
+        "noOfRatings": "15",
+        "price": "$39"
+    },
+    {
+        "name": "SEO Generator",
+        "category": "SEO",
+        "shortDescription": "Create 1000+ SEO landing pages with the SEO Generator plugin for WordPress. Now with Spintax feature",
+        "rating": "4.46",
+        "noOfRatings": "37",
+        "price": "$59"
+    },
+    {
+        "name": "Vocal",
+        "category": "Productivity",
+        "shortDescription": "Record and Send Voice Notes via Email. AI, transcription, CNAME, tracking, mobile support & more!",
+        "rating": "4.91",
+        "noOfRatings": "75",
+        "price": "$59"
+    },
+    {
+        "name": "RTILA - RPA &  Web Automation",
+        "category": "Marketing management",
+        "shortDescription": "Create Powerful Web Automations & Compile them into your own Software & Monetize them like a Pro !",
+        "rating": "4.83",
+        "noOfRatings": "99",
+        "price": "$99"
+    },
+    {
+        "name": "Feedback Link",
+        "category": "Social proof",
+        "shortDescription": "Get reviews & testimonials from happy customers, survey the rest. Display Social Proof on your site.",
+        "rating": "4.82",
+        "noOfRatings": "50",
+        "price": "$79"
+    },
+    {
+        "name": "ApiX-Drive - Plus exclusive",
+        "category": "Web builders",
+        "shortDescription": "Automate your work with code-free, ready-made API integrations",
+        "rating": "4.56",
+        "noOfRatings": "27",
+        "price": "$69"
+    },
+    {
+        "name": "SpaceSerp - Powerful SERP API",
+        "category": "SEO",
+        "shortDescription": "SpaceSerp is a powerful SERP AI powered by cutting-edge AI models",
+        "rating": "4.41",
+        "noOfRatings": "71",
+        "price": "$59"
+    },
+    {
+        "name": "Google Maps Scraper",
+        "category": "Lead generation",
+        "shortDescription": "Google Maps Places Scraper allows exporting local business contacts from Google Maps into a new file",
+        "rating": "4.33",
+        "noOfRatings": "75",
+        "price": "$129"
+    },
+    {
+        "name": "KloudFox",
+        "category": "Security",
+        "shortDescription": "Monitor uptime, send alerts to your team, and update users with custom status pages",
+        "rating": "4.92",
+        "noOfRatings": "13",
+        "price": "$59"
+    },
+    {
+        "name": "Paillor",
+        "category": "Productivity",
+        "shortDescription": "Consolidate all your company docs to create an interactive knowledge base powered by AI",
+        "rating": "1.25",
+        "noOfRatings": "4",
+        "price": "$59"
+    },
+    {
+        "name": "ShopEngine",
+        "category": "Ecommerce",
+        "shortDescription": "Build a customizable WooCommerce site with this powerful page builder plugin for WordPress",
+        "rating": "4",
+        "noOfRatings": "4",
+        "price": "$59"
+    },
+    {
+        "name": "Columns",
+        "category": "Productivity",
+        "shortDescription": "Columns - transform your data into compelling visual stories.",
+        "rating": "4.71",
+        "noOfRatings": "24",
+        "price": "$79"
+    },
+    {
+        "name": "WEBSITE.IM – Website Builder",
+        "category": "Web builders",
+        "shortDescription": "WEBSITE.IM is an Online Website Builder - intuitive, easy to use and packed with features. Build your new website with WEBSITE.IM, you'll love it! Once your website is created, don't forget to grab this AppSumo deal and activate your website for life! Why WEBSITE.IM? It's a no-code website builder f",
+        "rating": "4.62",
+        "noOfRatings": "39",
+        "price": "$77"
+    },
+    {
+        "name": "Vento",
+        "category": "Video",
+        "shortDescription": "A screen recorder that lets you pause, rewind, and re-record over any mistakes",
+        "rating": "4.75",
+        "noOfRatings": "101",
+        "price": "$49.99"
+    },
+    {
+        "name": "AnyChat",
+        "category": "Customer support",
+        "shortDescription": "AnyChat widget displays on every page of your site and provides as many contact methods as you want",
+        "rating": "4.8",
+        "noOfRatings": "75",
+        "price": "$29"
+    },
+    {
+        "name": "Outscraper: Google Search Results Scraper",
+        "category": "Lead generation",
+        "shortDescription": "Scrape structured search results data into a file and get real-time SERP data.",
+        "rating": "3.5",
+        "noOfRatings": "12",
+        "price": "$119"
+    },
+    {
+        "name": "kiwilaunch",
+        "category": "Calendar & scheduling",
+        "shortDescription": "Get online bookings from your website (for practitioners, home services, salons, course providers)",
+        "rating": "4.92",
+        "noOfRatings": "36",
+        "price": "$59"
+    },
+    {
+        "name": "Branalyzer - All In One Brands Analysis Software",
+        "category": "SEO",
+        "shortDescription": "Branalyzer is the AI-based all-in-one tool that allows obtaining detailed information on brands.",
+        "rating": "4.83",
+        "noOfRatings": "288",
+        "price": "$59"
+    },
+    {
+        "name": "Branalyzer - All In One Brands Analysis Software",
+        "category": "SEO",
+        "shortDescription": "Branalyzer is the AI-based all-in-one tool that allows obtaining detailed information on brands.",
+        "rating": "4.83",
+        "noOfRatings": "288",
+        "price": "$59"
+    },
+    {
+        "name": "GoZen Content.Ai",
+        "category": "Content marketing",
+        "shortDescription": "Research unlimited keywords and generate SEO content using 100+ AI-powered templates",
+        "rating": "4.85",
+        "noOfRatings": "334",
+        "price": "$49"
+    },
+    {
+        "name": "JoyQR",
+        "category": "Lead generation",
+        "shortDescription": "Elevate your marketing with custom QR codes, link in bio pages, and analytics",
+        "rating": "4.71",
+        "noOfRatings": "17",
+        "price": "$39"
+    },
+    {
+        "name": "Linke",
+        "category": "Marketing management",
+        "shortDescription": "Linke is the all-in-one complete solution to manage, analyze, target & track all your shared short links bio pages and get the most out of them. * Linke analyzes the traffic evolution of your link and if he notices that the hits increase rapidly, and suddenly he alerts you by SMS and email, it m",
+        "rating": "4.75",
+        "noOfRatings": "72",
+        "price": "$49"
+    },
+    {
+        "name": "WP Login Lockdown",
+        "category": "Security",
+        "shortDescription": "Prevent bad guys & bots from messing with your WordPress site before they even get to it",
+        "rating": "4.81",
+        "noOfRatings": "26",
+        "price": "$59"
+    },
+    {
+        "name": "Keyword Discovery by SEO Co-Pilot",
+        "category": "SEO",
+        "shortDescription": "A Keyword research tool that measures over a dozen key SEO metrics to find lucrative + easy keywords",
+        "rating": "4.08",
+        "noOfRatings": "38",
+        "price": "$49"
+    },
+    {
+        "name": "AffSync",
+        "category": "Content marketing",
+        "shortDescription": "Affiliate research tool to find affiliate programs and best-selling Amazon products & niches",
+        "rating": "5",
+        "noOfRatings": "6",
+        "price": "$89"
+    },
+    {
+        "name": "minimarks",
+        "category": "Remote collaboration",
+        "shortDescription": "Compact bookmark manager and start page for teams and web enthusiasts -- share and publish bookmarks",
+        "rating": "4.95",
+        "noOfRatings": "111",
+        "price": "$49"
+    },
+    {
+        "name": "Logic Sheet - Google Sheets automation",
+        "category": "Productivity",
+        "shortDescription": "Automate your workflows in Google Sheets, send emails/notifications based on events in Sheets.",
+        "rating": "4.95",
+        "noOfRatings": "56",
+        "price": "$99"
+    },
+    {
+        "name": "Fineguide",
+        "category": "Customer support",
+        "shortDescription": "Create AI assistants for just about any role and integrate them into your website",
+        "rating": "4.5",
+        "noOfRatings": "6",
+        "price": "$59"
+    },
+    {
+        "name": "MetaSurvey «Tinder-like surveys» — Plus exclusive",
+        "category": "Survey software",
+        "shortDescription": "Put your customers in a critic's shoes before producing your new drop – use «Tinder-like» surveys",
+        "rating": "4.8",
+        "noOfRatings": "44",
+        "price": "$78"
+    },
+    {
+        "name": "Twidget.io",
+        "category": "Web builders",
+        "shortDescription": "Innovate easily + unlock effortless app and site creation with Twidget's no-code API builder",
+        "rating": "4.9",
+        "noOfRatings": "10",
+        "price": "$39"
+    },
+    {
+        "name": "Gappeo",
+        "category": "HR",
+        "shortDescription": "Talent & skills assessment platform to help you hire and retain the best candidates",
+        "rating": "4.44",
+        "noOfRatings": "16",
+        "price": "$49"
+    },
+    {
+        "name": "Olly",
+        "category": "Social media",
+        "shortDescription": "Powerful AI Agent helping you Amplify your Social Presence in days, not months.",
+        "rating": "4.43",
+        "noOfRatings": "42",
+        "price": "$19"
+    },
+    {
+        "name": "Propoze",
+        "category": "Sales management",
+        "shortDescription": "Get more deals —  effortless proposals to engage and win",
+        "rating": "4.57",
+        "noOfRatings": "7",
+        "price": "$19"
+    },
+    {
+        "name": "Limey",
+        "category": "Content marketing",
+        "shortDescription": "Limey lets you streamline your digital presence with custom sites, shortened links, and QR codes",
+        "rating": "5",
+        "noOfRatings": "15",
+        "price": "$19"
+    },
+    {
+        "name": "FlowyTeam for Company Productivity & Performance",
+        "category": "Productivity",
+        "shortDescription": "All in one app: Strategy, OKR, KPI, Tasks, Projects, CRM, Finance, Payroll, AI, and many more...",
+        "rating": "4.6",
+        "noOfRatings": "47",
+        "price": "$59"
+    },
+    {
+        "name": "Apipheny",
+        "category": "Productivity",
+        "shortDescription": "Automatically connect Google Sheets to thousands of different APIs",
+        "rating": "4.81",
+        "noOfRatings": "16",
+        "price": "$149"
+    },
+    {
+        "name": "Writecream",
+        "category": "SEO",
+        "shortDescription": "Your secret weapon for SEO, sales & marketing",
+        "rating": "4.85",
+        "noOfRatings": "627",
+        "price": "$59"
+    },
+    {
+        "name": "SurFast Video Downloader",
+        "category": "Video",
+        "shortDescription": "The ultimate tool for downloading and converting online videos",
+        "rating": "4.2",
+        "noOfRatings": "5",
+        "price": "$19"
+    },
+    {
+        "name": "Trebble Online Audio & Video Editor",
+        "category": "Audio",
+        "shortDescription": "Edit spoken audio or video like you were editing a word document",
+        "rating": "4.41",
+        "noOfRatings": "37",
+        "price": "$69"
+    },
+    {
+        "name": "WP 301 Redirects",
+        "category": "SEO",
+        "shortDescription": "Improve SEO and customer experience by finding broken links, site redirects, and 404 errors",
+        "rating": "4.88",
+        "noOfRatings": "277",
+        "price": "$49"
+    },
+    {
+        "name": "Branalyzer - All In One Brands Analysis Software - Plus exclusive",
+        "category": "SEO",
+        "shortDescription": "Branalyzer is the AI-based all-in-one tool that allows obtaining detailed information on brands",
+        "rating": "4.83",
+        "noOfRatings": "288",
+        "price": "$59"
+    },
+    {
+        "name": "InPrivy - Secure and Easy Sharing",
+        "category": "Privacy",
+        "shortDescription": "InPrivy allows you to easily and securely share sensitive information.",
+        "rating": "4.93",
+        "noOfRatings": "46",
+        "price": "$39"
+    },
+    {
+        "name": "WP Go Maps",
+        "category": "Development tools",
+        "shortDescription": "The leading Google Maps plugin in WordPress for the last 11 years",
+        "rating": "4.27",
+        "noOfRatings": "11",
+        "price": "$59"
+    },
+    {
+        "name": "nichesss",
+        "category": "Content marketing",
+        "shortDescription": "Get amazing content + images + profitable ideas for any niche in 60 seconds or less",
+        "rating": "4.81",
+        "noOfRatings": "309",
+        "price": "$59"
+    },
+    {
+        "name": "FormDesigner",
+        "category": "Lead generation",
+        "shortDescription": "We help you create web forms of any complexity, without a designer or programmer",
+        "rating": "4.96",
+        "noOfRatings": "26",
+        "price": "$59"
+    },
+    {
+        "name": "WordHero - AI Content Writer",
+        "category": "Content marketing",
+        "shortDescription": "Use AI to generate original blog posts, ads, sales copy, emails, and more - in just 1 click",
+        "rating": "4.62",
+        "noOfRatings": "426",
+        "price": "$89"
+    },
+    {
+        "name": "Screpy",
+        "category": "SEO",
+        "shortDescription": "Analyze and monitor your website in one dashboard with an AI-based SEO and web analysis tool",
+        "rating": "4.7",
+        "noOfRatings": "878",
+        "price": "$49"
+    },
+    {
+        "name": "NoForm",
+        "category": "Customer support",
+        "shortDescription": "Engage, qualify, capture -- turn visitors into leads 24/7 with NoForm's AI chatbot",
+        "rating": "5",
+        "noOfRatings": "2",
+        "price": "$49"
+    },
+    {
+        "name": "iTubeGo for Mac",
+        "category": "Video",
+        "shortDescription": "Download full HD/4K/8K videos from YouTube, Vimeo and more than 10,000+ websites at high speed with iTubeGo. ***This version is for MacOS users! Check out the Windows version here.*** Full features: -Download YouTube videos, audios, playlists, channels in one click. -Convert YouTube to mp4, mp3, mov",
+        "rating": "4.71",
+        "noOfRatings": "24",
+        "price": "$19.95"
+    },
+    {
+        "name": "Hellooo",
+        "category": "Feedback management",
+        "shortDescription": "All-in-one platform for recordings, transcripts & insights",
+        "rating": "5",
+        "noOfRatings": "6",
+        "price": "$69"
+    },
+    {
+        "name": "LeadRocks - Plus exclusive",
+        "category": "Lead generation",
+        "shortDescription": "LeadRocks is a reliable B2B contact database with 100M+ records, emails, phone numbers, and LinkedIns",
+        "rating": "4.65",
+        "noOfRatings": "344",
+        "price": "$89"
+    },
+    {
+        "name": "NOYSI",
+        "category": "Productivity",
+        "shortDescription": "Your Team's Secret Weapon for Seamless Collaboration",
+        "rating": "4.46",
+        "noOfRatings": "114",
+        "price": "$159"
+    },
+    {
+        "name": "Soundwise Essentials Plan",
+        "category": "Audio",
+        "shortDescription": "Sell, deliver, and manage your audio programs online from one seamless platform",
+        "rating": "4.57",
+        "noOfRatings": "72",
+        "price": "$59"
+    },
+    {
+        "name": "Linkero",
+        "category": "Web builders",
+        "shortDescription": "Create a page in minutes and centralize your online presence",
+        "rating": "5",
+        "noOfRatings": "6",
+        "price": "$29"
+    },
+    {
+        "name": "Keywords.am",
+        "category": "Productivity",
+        "shortDescription": "Keywords.am is an AI-powered, SEO-focused listing editor for Amazon FBA private label sellers.",
+        "rating": "4.85",
+        "noOfRatings": "111",
+        "price": "$59"
+    },
+    {
+        "name": "Vizologi - Plus exclusive",
+        "category": "Sales management",
+        "shortDescription": "Boost your business strategy, discover strategic insights and create a unique business plan",
+        "rating": "4.56",
+        "noOfRatings": "34",
+        "price": "$69"
+    },
+    {
+        "name": "Ethos",
+        "category": "Marketing management",
+        "shortDescription": "AI-powered brand asset management made easy",
+        "rating": "4.62",
+        "noOfRatings": "40",
+        "price": "$29"
+    },
+    {
+        "name": "VidPenguin2",
+        "category": "SEO",
+        "shortDescription": "Video ranking software to help get your videos at the top of Google SERPs",
+        "rating": "5",
+        "noOfRatings": "17",
+        "price": "$67"
+    },
+    {
+        "name": "Vitepos - point of sale (POS)",
+        "category": "Ecommerce",
+        "shortDescription": "A complete point of sale plugin for WooCommerce that makes an online e-commerce site a local store",
+        "rating": "4.97",
+        "noOfRatings": "119",
+        "price": "$119"
+    },
+    {
+        "name": "SearchIQ",
+        "category": "Content marketing",
+        "shortDescription": "Take your search experience to a whole new level",
+        "rating": "4.82",
+        "noOfRatings": "39",
+        "price": "$39"
+    },
+    {
+        "name": "Emailpref",
+        "category": "Marketing management",
+        "shortDescription": "Let users choose their subscription preferences and sync data across platforms",
+        "rating": "5",
+        "noOfRatings": "4",
+        "price": "$49"
+    },
+    {
+        "name": "NodeLand (formerly Cmaps)",
+        "category": "Remote collaboration",
+        "shortDescription": "Note-taking as it should be; keep every idea in one place and connect everything you write with AI",
+        "rating": "4.64",
+        "noOfRatings": "39",
+        "price": "$19"
+    },
+    {
+        "name": "Linkly - Link Building Network",
+        "category": "SEO",
+        "shortDescription": "Active Link Building Network to build backlinks through quick collaboration -- ave time & effort",
+        "rating": "4.19",
+        "noOfRatings": "26",
+        "price": "$69"
+    },
+    {
+        "name": "B2B Leads Directory by Targetron",
+        "category": "Lead generation",
+        "shortDescription": "B2B Leads Directory by Targetron is a database of the local businesses",
+        "rating": "4.06",
+        "noOfRatings": "33",
+        "price": "$69"
+    },
+    {
+        "name": "Canyon",
+        "category": "Productivity",
+        "shortDescription": "Apply, track, and prepare for jobs – all on one platform",
+        "rating": "4.33",
+        "noOfRatings": "6",
+        "price": "$49"
+    },
+    {
+        "name": "Graficto",
+        "category": "Visual design",
+        "shortDescription": "Create powerful smart infographics and visuals without any design skills",
+        "rating": "4.63",
+        "noOfRatings": "35",
+        "price": "$109"
+    },
+    {
+        "name": "mevo: all-in-one chatbot solution",
+        "category": "Customer support",
+        "shortDescription": "Automate customer service with AI, create surveys with traditional chatbots, or combine both.",
+        "rating": "5",
+        "noOfRatings": "17",
+        "price": "$59"
+    },
+    {
+        "name": "Leggado.Digital",
+        "category": "Legal",
+        "shortDescription": "Secure your digital legacy with Leggado.Digital - protect, organize, and transfer your online assets",
+        "rating": "5",
+        "noOfRatings": "22",
+        "price": "$19"
+    },
+    {
+        "name": "HypeIndex AI",
+        "category": "Financial analytics",
+        "shortDescription": "Instant stock insights & settlement analysis; summarize today's financial news of your stock",
+        "rating": "4.19",
+        "noOfRatings": "16",
+        "price": "$59"
+    },
+    {
+        "name": "AI, API integrations, Programmatic SEO, Data Enrichment in Sheets",
+        "category": "Content marketing",
+        "shortDescription": "Integrate the AI capabilities of GPT, Gemini, Claude, Perplexity directly into your Google Sheets",
+        "rating": "5",
+        "noOfRatings": "3",
+        "price": "$79"
+    },
+    {
+        "name": "RightHire",
+        "category": "HR",
+        "shortDescription": "Hire with confidence by assessing the qualities that really matter",
+        "rating": "5",
+        "noOfRatings": "3",
+        "price": "$29"
+    },
+    {
+        "name": "BackgroundCut",
+        "category": "Photo",
+        "shortDescription": "Removing backgrounds from photos is a tedious and time-consuming process that can take hours. ⚡️ Introducing BackgroundCut - the fastest & the easiest way to remove or replace any image's background. BackgroundCut saves you tons of time helping you quickly remove or replace the background for your p",
+        "rating": "4.78",
+        "noOfRatings": "27",
+        "price": "$59"
+    },
+    {
+        "name": "Drawtify",
+        "category": "Visual design",
+        "shortDescription": "Online Illustrator & Vector Graphic Editor with Beautiful Templates and Design Elements",
+        "rating": "4.76",
+        "noOfRatings": "21",
+        "price": "$79.90"
+    },
+    {
+        "name": "Role.so",
+        "category": "HR",
+        "shortDescription": "The smart way to do candidate outreach",
+        "rating": "5",
+        "noOfRatings": "5",
+        "price": "$39"
+    },
+    {
+        "name": "Auto Affiliate Links",
+        "category": "Project management",
+        "shortDescription": "Automatically add and manage affiliate links on your WordPress website with the Auto Affiliate Links plugin",
+        "rating": "4.62",
+        "noOfRatings": "8",
+        "price": "$79"
+    },
+    {
+        "name": "Certyfile-Blockchain Certification",
+        "category": "Legal",
+        "shortDescription": "Your online digital notary solution to protect and notarize all your private documents",
+        "rating": "4.77",
+        "noOfRatings": "31",
+        "price": "$59"
+    },
+    {
+        "name": "Microthemer",
+        "category": "Web builders",
+        "shortDescription": "Customize the styling of anything on your WordPress site",
+        "rating": "5",
+        "noOfRatings": "28",
+        "price": "$59"
+    },
+    {
+        "name": "PhotoKit Photo Editor",
+        "category": "Photo",
+        "shortDescription": "Photokit’s photo editor comes packed with tons of great features to help you perfect your photos.",
+        "rating": "4.93",
+        "noOfRatings": "342",
+        "price": "$69"
+    },
+    {
+        "name": "Chaos Control",
+        "category": "Productivity",
+        "shortDescription": "A personal organizer that will help you manage your goals, to-do lists and tasks",
+        "rating": "4.73",
+        "noOfRatings": "30",
+        "price": "$99"
+    },
+    {
+        "name": "InTab.io",
+        "category": "Web builders",
+        "shortDescription": "So you want to change a website design, but you don't know CSS well, or you just hate writing CSS code altogether? Then you have to use InTab.io: a user-friendly browser extension to visually edit or debug any website's CSS. Simply click on any element on any website, then InTab's visual CSS editor,",
+        "rating": "4.67",
+        "noOfRatings": "76",
+        "price": "$49"
+    },
+    {
+        "name": "Ägile Ässets",
+        "category": "Social media",
+        "shortDescription": "The Agile Social Media Storage, Creation + Scheduling Tool for International Pro Brand Builders",
+        "rating": "4.88",
+        "noOfRatings": "17",
+        "price": "$49"
+    },
+    {
+        "name": "ChatScribe Pro",
+        "category": "Content marketing",
+        "shortDescription": "AI powered video transcription, doc chat, content generation & Doc translation",
+        "rating": "4.29",
+        "noOfRatings": "24",
+        "price": "$49"
+    },
+    {
+        "name": "Stepsy",
+        "category": "Remote collaboration",
+        "shortDescription": "Document your steps in no time:  Capture SOPs, screenshot guides and share through GDrive",
+        "rating": "4.39",
+        "noOfRatings": "33",
+        "price": "$39"
+    },
+    {
+        "name": "ScreenToVideo",
+        "category": "Video",
+        "shortDescription": "Record, edit, and share your videos with a powerful yet easy-to-use screen recorder and video editor",
+        "rating": "4.86",
+        "noOfRatings": "97",
+        "price": "$59"
+    },
+    {
+        "name": "Pine BI",
+        "category": "Productivity",
+        "shortDescription": "Pine BI is a VBA based Excel add-in, which allows users to create advanced dynamic charts in seconds and turn Excel workbooks into dynamic and engaging dashboards, ready to present and share. Included are more than 25 of the most widely used and complex visualizations for data analysis and project m",
+        "rating": "4.67",
+        "noOfRatings": "3",
+        "price": "$99"
+    },
+    {
+        "name": "Airbrush - AI Image Generator",
+        "category": "Content marketing",
+        "shortDescription": "Use AI to create high-quality images and artwork in seconds",
+        "rating": "4.65",
+        "noOfRatings": "238",
+        "price": "$29"
+    },
+    {
+        "name": "Yazo - AI SEO Writer",
+        "category": "Content marketing",
+        "shortDescription": "Use AI to find SEO keywords, generate content, and outrank your competitors",
+        "rating": "4.83",
+        "noOfRatings": "18",
+        "price": "$29"
+    },
+    {
+        "name": "OfficeKube",
+        "category": "Development tools",
+        "shortDescription": "A platform to provide a highly productive virtual computer accessible via a web-browser",
+        "rating": "5",
+        "noOfRatings": "2",
+        "price": "$59"
+    },
+    {
+        "name": "Internal Linking Related Contents",
+        "category": "SEO",
+        "shortDescription": "Automatically link related posts to boost SEO and engage users with relevant content.",
+        "rating": "5",
+        "noOfRatings": "18",
+        "price": "$49"
+    },
+    {
+        "name": "Linkjoy",
+        "category": "SEO",
+        "shortDescription": "Generate leads, boost ROI, and drive traffic with optimized social bio links",
+        "rating": "4.55",
+        "noOfRatings": "233",
+        "price": "$49"
+    },
+    {
+        "name": "The Link Chest by SEO Buddy",
+        "category": "SEO",
+        "shortDescription": "The Link Chest is a collection of high-quality, easy-to-win backlink opportunities",
+        "rating": "4.34",
+        "noOfRatings": "249",
+        "price": "$89"
+    },
+    {
+        "name": "Bit Assist",
+        "category": "Customer support",
+        "shortDescription": "Connect with your visitors using Facebook Messenger, WhatsApp, and 20+ social channels in one button",
+        "rating": "4.86",
+        "noOfRatings": "28",
+        "price": "$49"
+    },
+    {
+        "name": "CapitalConnector.ai",
+        "category": "Investing",
+        "shortDescription": "The ultimate database of 75,000+ Angels, VCs, advisors, and more to boost your startup's growth",
+        "rating": "4.09",
+        "noOfRatings": "11",
+        "price": "$49"
+    },
+    {
+        "name": "Scrollsequence",
+        "category": "Web builders",
+        "shortDescription": "Make immersive scroll animations in WordPress with this background media & content animation engine",
+        "rating": "4.78",
+        "noOfRatings": "9",
+        "price": "$74.99"
+    },
+    {
+        "name": "CutMe Short",
+        "category": "SEO",
+        "shortDescription": "Empower your URLs before sharing, get powerful analytics, predict clicks, and much more",
+        "rating": "4.25",
+        "noOfRatings": "4",
+        "price": "$49"
+    },
+    {
+        "name": "NativeRest",
+        "category": "Development tools",
+        "shortDescription": "Create, debug and test your API with a fast and lightweight API-client for Windows, macOS and Linux",
+        "rating": "4.94",
+        "noOfRatings": "16",
+        "price": "$19"
+    },
+    {
+        "name": "FlyMSG: AI Writer, Text Expander, AI Post Generator & LinkedIn Commenting",
+        "category": "Lead generation",
+        "shortDescription": "FlyMSG: an AI Writer, Text Expander, AI Post Generator & LinkedIn Commenting SUPER Productivity App!",
+        "rating": "4.67",
+        "noOfRatings": "54",
+        "price": "$69"
+    },
+    {
+        "name": "TextSniper - OCR Simplified",
+        "category": "Productivity",
+        "shortDescription": "TextSniper is a simple and easy to use OCR (Optical Character Recognition) app that helps instantly extract text from images, PDFs, slides, Zoom calls, or even YouTube videos.",
+        "rating": "4.96",
+        "noOfRatings": "79",
+        "price": "$6.49"
+    },
+    {
+        "name": "Docsie",
+        "category": "Productivity",
+        "shortDescription": "Create your own knowledge base and train AI chatbots to provide better customer support",
+        "rating": "3",
+        "noOfRatings": "2",
+        "price": "$59"
+    },
+    {
+        "name": "Screpy - Plus Exclusive",
+        "category": "SEO",
+        "shortDescription": "Analyze and monitor your website in one dashboard with an AI-based SEO and web analysis tool",
+        "rating": "4.7",
+        "noOfRatings": "878",
+        "price": "$55"
+    },
+    {
+        "name": "Chrome Tab Reminder",
+        "category": "Productivity",
+        "shortDescription": "Have you ever opened a website and thought \"I'd like to look at this more, but not now\"? Or maybe you want to remind yourself of a sale or some other event? This Chrome extension makes it simple to create reminders to revisit any website when you decide. Reminders are shown as native Chrome notifica",
+        "rating": "4.7",
+        "noOfRatings": "23",
+        "price": "$2.99"
+    },
+    {
+        "name": "Tuberank Jeet - Optimize & Rank Your YouTube Videos",
+        "category": "SEO",
+        "shortDescription": "Want to rank your YouTube video? Check out Tuberank Jeet 6 AI: https://tuberankjeet.com/sales",
+        "rating": "4.27",
+        "noOfRatings": "45",
+        "price": "$69"
+    },
+    {
+        "name": "EpicPxls",
+        "category": "Web builders",
+        "shortDescription": "Create beautiful websites and landing pages with customizable templates",
+        "rating": "4.85",
+        "noOfRatings": "27",
+        "price": "$39"
+    },
+    {
+        "name": "Blurweb App",
+        "category": "Video",
+        "shortDescription": "Blur all your sensitive data on web instantly, when recording or screen sharing. No editing required",
+        "rating": "4.63",
+        "noOfRatings": "140",
+        "price": "$17"
+    },
+    {
+        "name": "Picnie",
+        "category": "Visual design",
+        "shortDescription": "Picnie helps individuals & businesses to create graphics for social media, display ads, and more",
+        "rating": "4.43",
+        "noOfRatings": "7",
+        "price": "$49"
+    },
+    {
+        "name": "Editor.do",
+        "category": "Development tools",
+        "shortDescription": "The all-in-one online IDE and host to create, code, and deploy stunning static websites in seconds",
+        "rating": "4.85",
+        "noOfRatings": "26",
+        "price": "$49"
+    },
+    {
+        "name": "SlideFill",
+        "category": "Lead generation",
+        "shortDescription": "Save hours creating personalized data-driven presentations for sales, marketing, and success stories",
+        "rating": "5",
+        "noOfRatings": "7",
+        "price": "$29"
+    },
+    {
+        "name": "Power Formulas: Use ChatGPT & AI in Google Sheets",
+        "category": "SEO",
+        "shortDescription": "Use ChatGPT / GPT 4, Claude, Google AI, in Google Sheets, generate AI content and images in bulk.",
+        "rating": "4.88",
+        "noOfRatings": "17",
+        "price": "$55"
+    },
+    {
+        "name": "Wordplay - Long-Form AI Writer",
+        "category": "Content marketing",
+        "shortDescription": "The #1 Long-Form AI Writer. Create 2,000+ words in one click.",
+        "rating": "4.78",
+        "noOfRatings": "268",
+        "price": "$99"
+    },
+    {
+        "name": "Behavely AI",
+        "category": "Lead generation",
+        "shortDescription": "Maximize conversions and know clients before meeting: behavior analysis, action plan, and red flags",
+        "rating": "4.3",
+        "noOfRatings": "23",
+        "price": "$59"
+    },
+    {
+        "name": "ShopPress & Kata Bundle",
+        "category": "Ecommerce",
+        "shortDescription": "Elevate your online store with sleek design and powerful features",
+        "rating": "4.67",
+        "noOfRatings": "6",
+        "price": "$29"
+    },
+    {
+        "name": "Clawdia",
+        "category": "Legal",
+        "shortDescription": "Tailor contracts, proposals, and more for secure business growth",
+        "rating": "4.5",
+        "noOfRatings": "10",
+        "price": "$99"
+    },
+    {
+        "name": "MetaSurvey - «Tinder-like» Surveys",
+        "category": "Survey software",
+        "shortDescription": "Put your customers in a critic's shoes before producing your new drop – use «Tinder-like» surveys",
+        "rating": "4.8",
+        "noOfRatings": "44",
+        "price": "$78"
+    },
+    {
+        "name": "WhatBuddy",
+        "category": "Marketing management",
+        "shortDescription": "Whatsapp Marketing and Automation Tool",
+        "rating": "5",
+        "noOfRatings": "1",
+        "price": "$39"
+    },
+    {
+        "name": "AMZ Image",
+        "category": "SEO",
+        "shortDescription": "Insert Amazon images in WordPress quickly, boosting conversions and ensuring compliance",
+        "rating": "4.55",
+        "noOfRatings": "38",
+        "price": "$59"
+    },
+    {
+        "name": "Rush Roto",
+        "category": "Photo",
+        "shortDescription": "The easiest way to create AI-driven product photos without hiring a photographer",
+        "rating": "5",
+        "noOfRatings": "1",
+        "price": "$29"
+    },
+    {
+        "name": "AvoMap",
+        "category": "Video",
+        "shortDescription": "Create 3D videos of your adventures or events in minutes",
+        "rating": "3",
+        "noOfRatings": "12",
+        "price": "$49"
+    },
+    {
+        "name": "Watermarkup",
+        "category": "Photo",
+        "shortDescription": "Batch watermarks photos, protect images from theft & promote your brand with customizable watermarks",
+        "rating": "4.77",
+        "noOfRatings": "30",
+        "price": "$15"
+    },
+    {
+        "name": "Radar",
+        "category": "Productivity",
+        "shortDescription": "Track important things from your menubar with analytics and alerts",
+        "rating": "4.89",
+        "noOfRatings": "37",
+        "price": "$29"
+    },
+    {
+        "name": "Animazer",
+        "category": "Video",
+        "shortDescription": "Easily craft stunning, professional-grade promotional videos in just a few clicks with our user-friendly tool",
+        "rating": "4.52",
+        "noOfRatings": "33",
+        "price": "$25"
+    },
+    {
+        "name": "Creatica",
+        "category": "Visual design",
+        "shortDescription": "Generate unlimited unique vector backgrounds with 50+ generators, and limitless customizations",
+        "rating": "5",
+        "noOfRatings": "11",
+        "price": "$19"
+    },
+    {
+        "name": "SEO Checker for Windows",
+        "category": "SEO",
+        "shortDescription": "Website analyzer and SEO audit tool",
+        "rating": "4.96",
+        "noOfRatings": "24",
+        "price": "$9"
+    },
+    {
+        "name": "Prowd",
+        "category": "Content marketing",
+        "shortDescription": "Create captivating video content with 4 unique video tools -- less fuss, more fun",
+        "rating": "4.6",
+        "noOfRatings": "40",
+        "price": "$49"
+    },
+    {
+        "name": "GoPDF",
+        "category": "Cloud services & hosting",
+        "shortDescription": "Edit, sign, convert, merge, protect, and AI PDF chat: your complete PDF solution with GoPDF",
+        "rating": "3.76",
+        "noOfRatings": "17",
+        "price": "$29"
+    },
+    {
+        "name": "Exclusive Addons - Everything you need for your Elementor",
+        "category": "Email template",
+        "shortDescription": "Exclusively designed widgets for Elementor with all the customization options you'll ever need",
+        "rating": "4.77",
+        "noOfRatings": "69",
+        "price": "$49"
+    },
+    {
+        "name": "WoWy AI",
+        "category": "Content marketing",
+        "shortDescription": "Complete, improve, summarize content, & more instantly anywhere without leaving your app or tab",
+        "rating": "4.5",
+        "noOfRatings": "2",
+        "price": "$39"
+    },
+    {
+        "name": "tagdeo",
+        "category": "SEO",
+        "shortDescription": "Easily generate trackable QR codes",
+        "rating": "3.86",
+        "noOfRatings": "14",
+        "price": "$19"
+    },
+    {
+        "name": "ManyContacts",
+        "category": "CRM",
+        "shortDescription": "Manage Hundreds of WhatsApp Messages for Sales and Customer Support (Now With Chatbots & Funnels!)",
+        "rating": "3.7",
+        "noOfRatings": "40",
+        "price": "$49"
+    },
+    {
+        "name": "Proven.ly",
+        "category": "Lead generation",
+        "shortDescription": "Boost conversions and build trust with Google Sheets-powered social proof and notification popups",
+        "rating": "4.72",
+        "noOfRatings": "25",
+        "price": "$39"
+    },
+    {
+        "name": "YeetDL",
+        "category": "Media management",
+        "shortDescription": "The easiest and fastest way to download & convert YouTube videos, playlists, and channels",
+        "rating": "4.54",
+        "noOfRatings": "74",
+        "price": "$19.99"
+    },
+    {
+        "name": "DarkMySite - WordPress Dark Mode Plugin",
+        "category": "Development tools",
+        "shortDescription": "Give your website visitors' eyes a break with DarkMySite - the ultimate WordPress dark mode plugin",
+        "rating": "4.91",
+        "noOfRatings": "43",
+        "price": "$9"
+    },
+    {
+        "name": "Oneloop",
+        "category": "Development tools",
+        "shortDescription": "Manage and scale your API keys effortlessly with one line of code",
+        "rating": "5",
+        "noOfRatings": "1",
+        "price": "$49"
+    },
+    {
+        "name": "SkyRocket Google Reviews Website Widget",
+        "category": "Customer support",
+        "shortDescription": "Display your Google Reviews on your website and with auto-updates weekly.",
+        "rating": "4.92",
+        "noOfRatings": "13",
+        "price": "$49"
+    },
+    {
+        "name": "Img.Upscaler",
+        "category": "Course builders",
+        "shortDescription": "What to do if you are struggling with low-resolution images that lack clarity and quality? You need an AI assistant help you to deal with blurry or pixelated images. With AI Image Upscaler, you can easily enlarge and enhance your images using the latest AI-powered super-resolution technology. With R",
+        "rating": "4.19",
+        "noOfRatings": "27",
+        "price": "$69"
+    },
+    {
+        "name": "Git Aset",
+        "category": "Web builders",
+        "shortDescription": "Stop spending countless hours groping the internet and put our assets to use",
+        "rating": "4.91",
+        "noOfRatings": "45",
+        "price": "$49"
+    },
+    {
+        "name": "Interactive 3D Experiences & Augmented Reality - no app install required",
+        "category": "Augmented reality / VR",
+        "shortDescription": "Engage your website visitors with life-like 3D models and/or let them scan a QR code to view in AR",
+        "rating": "5",
+        "noOfRatings": "36",
+        "price": "$59"
+    },
+    {
+        "name": "AroundDeal",
+        "category": "Lead generation",
+        "shortDescription": "AroundDeal is the leading platform for sales and marketing intelligence and automation",
+        "rating": "4.29",
+        "noOfRatings": "38",
+        "price": "$59"
+    },
+    {
+        "name": "WP Video Magic",
+        "category": "Video",
+        "shortDescription": "Cut costs with the cheapest video hosting available made simple for WordPress. Video hosting costs quickly rack up to eye watering levels with the 'industry standard' providers! Keeping things on a budget is important in business, but you still need the fastest video delivery possible for ranking an",
+        "rating": "4.9",
+        "noOfRatings": "31",
+        "price": "$27"
+    },
+    {
+        "name": "Brandy",
+        "category": "Media management",
+        "shortDescription": "Where can I find the logo with transparent background? What font are we using? If you work in marketing, design or sales, you probably heard questions like these all the time. With Brandy you can create and share a directory with all your brand assets in about 5 minutes. Simply create your brand spa",
+        "rating": "4.47",
+        "noOfRatings": "40",
+        "price": "$49"
+    },
+    {
+        "name": "Coming Soon & Maintenance Mode",
+        "category": "Web builders",
+        "shortDescription": "Create and manage custom Coming Soon and maintenance pages in no time",
+        "rating": "4.92",
+        "noOfRatings": "159",
+        "price": "$69"
+    },
+    {
+        "name": "VidConvo",
+        "category": "HR",
+        "shortDescription": "Create, edit, and share pre-recorded interviews effortlessly with our intuitive platform",
+        "rating": "5",
+        "noOfRatings": "3",
+        "price": "$59"
+    },
+    {
+        "name": "PDF Reader Pro for Windows",
+        "category": "Productivity",
+        "shortDescription": "All-in-one PDF office to read, edit, annotate, convert, create, OCR, fill forms and sign PDFs.",
+        "rating": "4.25",
+        "noOfRatings": "8",
+        "price": "$59.99"
+    },
+    {
+        "name": "Logii Anti-Detect Browser - Plus exclusive",
+        "category": "Social proof",
+        "shortDescription": "Run multiple ad accounts & do multi-account marketing easily without getting banned.",
+        "rating": "4.08",
+        "noOfRatings": "39",
+        "price": "$99"
+    },
+    {
+        "name": "Email List Validation",
+        "category": "Email marketing",
+        "shortDescription": "Clean up all of your email lists to reach the right inbox every time",
+        "rating": "3.33",
+        "noOfRatings": "231",
+        "price": "$59"
+    },
+    {
+        "name": "Pods.ee",
+        "category": "Audio",
+        "shortDescription": "AI summaries, transcripts and mind maps for podcasts",
+        "rating": "4.33",
+        "noOfRatings": "6",
+        "price": "$19"
+    },
+    {
+        "name": "Hey Oliver",
+        "category": "Lead generation",
+        "shortDescription": "Engage visitors and convert leads with customized, automated marketing campaigns",
+        "rating": "4.52",
+        "noOfRatings": "162",
+        "price": "$49"
+    },
+    {
+        "name": "Cornerrr",
+        "category": "Web builders",
+        "shortDescription": "Create beautiful E-commerce website within a few clicks and start selling",
+        "rating": "5",
+        "noOfRatings": "2",
+        "price": "$49"
+    },
+    {
+        "name": "Tiny Chat",
+        "category": "Customer support",
+        "shortDescription": "Connect your website's live chat directly to Slack for effortless communication",
+        "rating": "5",
+        "noOfRatings": "1",
+        "price": "$29"
+    },
+    {
+        "name": "Share My Image (Image Hosting)",
+        "category": "Ecommerce",
+        "shortDescription": "Schedule social media posts, create product listings on Shopify, marketplaces, showcase products etc",
+        "rating": "4.62",
+        "noOfRatings": "24",
+        "price": "$99"
+    },
+    {
+        "name": "PromptBox - Beautifully save your text",
+        "category": "Productivity",
+        "shortDescription": "Beautifully store, copy and paste repetitive text like:\n1. Emails\n2. Prompts\n3. Texts\n4. Addresses",
+        "rating": "3.56",
+        "noOfRatings": "27",
+        "price": "$19"
+    },
+    {
+        "name": "Cheerlink",
+        "category": "Customer support",
+        "shortDescription": "Engage customers with beautiful widgets and powerful AI chat support",
+        "rating": "5",
+        "noOfRatings": "1",
+        "price": "$49"
+    },
+    {
+        "name": "YeetDL - Plus exclusive",
+        "category": "Media management",
+        "shortDescription": "Downloading videos & playlists from YouTube & the most popular video websites has never been so easy",
+        "rating": "4.54",
+        "noOfRatings": "74",
+        "price": "$19.99"
+    },
+    {
+        "name": "URL-Monitor 👉 Your SEO/PPC Guardian Angel 🧚‍♂️",
+        "category": "SEO",
+        "shortDescription": "This SEO/PPC Guardian Angel monitors items of your web page to prevent ranking, traffic, and revenue losses! Within 7 minutes after buying you will reap these benefits. -Save money and hassle by finding critical things before Google or potential clients. -Go back in time to see why a page used to pe",
+        "rating": "4",
+        "noOfRatings": "8",
+        "price": "$69"
+    },
+    {
+        "name": "FeatureShift",
+        "category": "Feedback management",
+        "shortDescription": "Avoid building the wrong features and ship products with confidence and a clear vision. Use FeatureShift to easily gather feature requests, bug reports and much more. Maintain a public roadmap and keep customers in the loop.",
+        "rating": "5",
+        "noOfRatings": "8",
+        "price": "$39"
+    },
+    {
+        "name": "DottedSign",
+        "category": "Cloud services & hosting",
+        "shortDescription": "Effortlessly sign documents and get signatures from others in a legal and secure process",
+        "rating": "4.52",
+        "noOfRatings": "27",
+        "price": "$40"
+    },
+    {
+        "name": "Linkila",
+        "category": "Lead generation",
+        "shortDescription": "Delightful and powerful branded short URL service",
+        "rating": "4.67",
+        "noOfRatings": "15",
+        "price": "$48"
+    },
+    {
+        "name": "InstaCharts",
+        "category": "Productivity",
+        "shortDescription": "Instantly create beautiful charts from spreadsheet files; save and share interactive charts online",
+        "rating": "4.67",
+        "noOfRatings": "3",
+        "price": "$29"
+    },
+    {
+        "name": "WP Force SSL",
+        "category": "Security",
+        "shortDescription": "Fix SSL problems & monitor the site in real-time to improve SEO & user experience",
+        "rating": "4.47",
+        "noOfRatings": "15",
+        "price": "$49"
+    },
+    {
+        "name": "ProductLogz",
+        "category": "Feedback management",
+        "shortDescription": "A feedback management, Surveys, Roadmap & Changelog tool",
+        "rating": "5",
+        "noOfRatings": "11",
+        "price": "$59"
+    },
+    {
+        "name": "ChatBees",
+        "category": "Customer support",
+        "shortDescription": "Boost customer and employee satisfaction with AI ChatBot and Slackbot, GPT cost included",
+        "rating": "5",
+        "noOfRatings": "1",
+        "price": "$59"
+    },
+    {
+        "name": "Groups Pro",
+        "category": "Lead generation",
+        "shortDescription": "Automates your email follow-up for new Facebook Group members so you can convert them into paying customers fast",
+        "rating": "5",
+        "noOfRatings": "10",
+        "price": "$97"
+    },
+    {
+        "name": "WP Scheduled Posts",
+        "category": "Content marketing",
+        "shortDescription": "Automate your WordPress workflow and collaborate on content",
+        "rating": "4.02",
+        "noOfRatings": "44",
+        "price": "$39"
+    },
+    {
+        "name": "Enquire PRO",
+        "category": "Productivity",
+        "shortDescription": "Enquire PRO empowers you to make better decisions, faster, with human expertise + AI insights",
+        "rating": "4",
+        "noOfRatings": "8",
+        "price": "$49"
+    },
+    {
+        "name": "QRClip - The Future of Secure and Seamless File Sharing",
+        "category": "Cloud services & hosting",
+        "shortDescription": "QRClip: End-to-end encrypted transfers via QR codes and links. Safe, swift, seamless.",
+        "rating": "5",
+        "noOfRatings": "11",
+        "price": "$5"
+    },
+    {
+        "name": "Speechactors",
+        "category": "Video",
+        "shortDescription": "Speechactors is an AI-driven text-to-speech generation cloud tool",
+        "rating": "4",
+        "noOfRatings": "15",
+        "price": "$36"
+    },
+    {
+        "name": "fluXtore",
+        "category": "Ecommerce",
+        "shortDescription": "Build WordPress funnels in seconds using this easy, fast, and lightweight tool",
+        "rating": "4.44",
+        "noOfRatings": "27",
+        "price": "$19"
+    },
+    {
+        "name": "InboxPlus",
+        "category": "Email marketing",
+        "shortDescription": "Master the art of follow-ups with AI",
+        "rating": "5",
+        "noOfRatings": "2",
+        "price": "$19"
+    },
+    {
+        "name": "WP Simple Author Box",
+        "category": "Content marketing",
+        "shortDescription": "Add a fully customizable responsive author box to any WordPress site. Include multiple & guest writers in just one click without creating a WP account for them. WP Simple Author Box lets you control over 50 options that lead to the desired design (no messing with code). Choose a premade template",
+        "rating": "5",
+        "noOfRatings": "11",
+        "price": "$39"
+    },
+    {
+        "name": "iShowU V6",
+        "category": "Video",
+        "shortDescription": "Capture and customize your screen recordings effortlessly for Mac",
+        "rating": "5",
+        "noOfRatings": "2",
+        "price": "$19"
+    },
+    {
+        "name": "Domain Monitor",
+        "category": "Security",
+        "shortDescription": "Domain Monitor is the all-in-one domain & website monitoring tool",
+        "rating": "4",
+        "noOfRatings": "12",
+        "price": "$49.95"
+    },
+    {
+        "name": "Sendapp Professional",
+        "category": "Marketing management",
+        "shortDescription": "Revolutionary marketing campaigns with WhatsApp! Use your new SendApp software to target your customers in a targeted way. Automate your WhatsApp and turn it into a winning weapon for your business. Save time using SendApp. Get down to work with an all-in-one marketing platform that keeps up with mo",
+        "rating": "5",
+        "noOfRatings": "2",
+        "price": "$49"
+    },
+    {
+        "name": "Feedbeo",
+        "category": "Remote collaboration",
+        "shortDescription": "Make your meetings interactive and engaging, through live polls such as Q&A and word clouds.",
+        "rating": "4.09",
+        "noOfRatings": "11",
+        "price": "$19"
+    },
+    {
+        "name": "DevBox - The Developer Toolbox",
+        "category": "Development tools",
+        "shortDescription": "A web application for developers (1 year deal)",
+        "rating": "5",
+        "noOfRatings": "6",
+        "price": "$15"
+    },
+    {
+        "name": "Answerly Banner",
+        "category": "Customer support",
+        "shortDescription": "A quick-to-setup widget that lets you notify your website visitors about your latest developments",
+        "rating": "4.67",
+        "noOfRatings": "12",
+        "price": "$29"
+    },
+    {
+        "name": "Crop.photo",
+        "category": "Photo",
+        "shortDescription": "Automate bulk photo retouching with Crop.photo - AI-powered, cloud-based, and built for eCommerce",
+        "rating": "5",
+        "noOfRatings": "2",
+        "price": "$69"
+    },
+    {
+        "name": "Password.link",
+        "category": "Video",
+        "shortDescription": "The common situation - you need to send credentials over email, Slack or Teams, but how can you know if someone was eavesdropping and read the message and the credentials? How can you know when and who viewed the credentials? Sharing confidential information is risky. Both corporate and private cust",
+        "rating": "4.62",
+        "noOfRatings": "13",
+        "price": "$99.99"
+    },
+    {
+        "name": "Equitest - Online Valuation Platform",
+        "category": "Financial analytics",
+        "shortDescription": "AI Business Valuation Software for Startups and Established Companies - CPAs, Accountants, Investors",
+        "rating": "4.75",
+        "noOfRatings": "4",
+        "price": "$99"
+    },
+    {
+        "name": "Power Personas",
+        "category": "Marketing management",
+        "shortDescription": "Help your people understand & engage your customers. Automatically create, customize and share ICPs",
+        "rating": "4.17",
+        "noOfRatings": "18",
+        "price": "$79"
+    },
+    {
+        "name": "Postaga",
+        "category": "Marketing management",
+        "shortDescription": "Custom, automated outreach campaigns that promote your content and boost qualified web traffic",
+        "rating": null,
+        "noOfRatings": null,
+        "price": "FREE"
+    },
+    {
+        "name": "CitadelaWP Package Unlimited",
+        "category": "Web builders",
+        "shortDescription": "CitadelaWP WordPress theme includes 29 ready-to-use starter website layouts with directory features.",
+        "rating": "4.2",
+        "noOfRatings": "10",
+        "price": "$99"
+    },
+    {
+        "name": "Imgkits - AI Image Processing Tools Online",
+        "category": "Photo",
+        "shortDescription": "include watermark remover, background remover, photo to cartoon, photo restoration,face swap",
+        "rating": "3.86",
+        "noOfRatings": "14",
+        "price": "$27"
+    },
+    {
+        "name": "QwikBanners",
+        "category": "Content marketing",
+        "shortDescription": "Meet QwikBanners - the quickest banner maker for your display campaigns - that allows you to automate your banner creation by generating 10 sizes at once",
+        "rating": "4.21",
+        "noOfRatings": "24",
+        "price": "$59"
+    },
+    {
+        "name": "WP Links",
+        "category": "Website analytics",
+        "shortDescription": "Take control over every link on your site to make sure you're getting the most SEO juice from it.",
+        "rating": "4.75",
+        "noOfRatings": "4",
+        "price": "$49"
+    },
+    {
+        "name": "DarkLup - WordPress Dark Mode Plugin",
+        "category": "Development tools",
+        "shortDescription": "All in one WordPress plugin to create a stunning dark version for your WordPress website.",
+        "rating": "4.69",
+        "noOfRatings": "13",
+        "price": "$39"
+    },
+    {
+        "name": "ChartBrick",
+        "category": "Productivity",
+        "shortDescription": "Create charts using your data from Notion, Airtable, Stackby, CSV, JSON and embed them anywhere",
+        "rating": "4.28",
+        "noOfRatings": "18",
+        "price": "$49"
+    },
+    {
+        "name": "Stories AR",
+        "category": "Augmented reality / VR",
+        "shortDescription": "Easy peasy Augmented Reality platform for photo and arts",
+        "rating": "4.33",
+        "noOfRatings": "6",
+        "price": "$49"
+    },
+    {
+        "name": "ImageColorizer",
+        "category": "Photo",
+        "shortDescription": "ImageColorizer is an online tool that colorizes and restores your old monochromatic photos without any PhotoShop skill. Powered by 4 different AI technology and you can fix and restore your old photos in just a few clicks. Just bring the memory of the old photo back to life. AI COLORIZE: Turn monoch",
+        "rating": "4.22",
+        "noOfRatings": "40",
+        "price": "$29.95"
+    },
+    {
+        "name": "SendFox - Plus exclusive",
+        "category": "Email marketing",
+        "shortDescription": "Schedule and automate your email growth with this affordable email marketing tool",
+        "rating": null,
+        "noOfRatings": null,
+        "price": "FREE"
+    },
+    {
+        "name": "Peoplebox",
+        "category": "HR",
+        "shortDescription": "Robust employee engagement and performance management for remote teams",
+        "rating": "4.89",
+        "noOfRatings": "9",
+        "price": "$99"
+    },
+    {
+        "name": "Holoib",
+        "category": "Lead generation",
+        "shortDescription": "Create interactive demos and step-by-step guides to drive more conversions",
+        "rating": "5",
+        "noOfRatings": "1",
+        "price": "$39"
+    },
+    {
+        "name": "YT2Posts: YouTube Videos to WordPress Posts (Articles)",
+        "category": "Video",
+        "shortDescription": "Automatically convert the latest videos from YouTube channels and playlists to WP posts (articles)",
+        "rating": "4.43",
+        "noOfRatings": "7",
+        "price": "$49"
+    },
+    {
+        "name": "Wp Social",
+        "category": "Web builders",
+        "shortDescription": "Add social logins, counters, and share buttons to your WP site and get everyone talking",
+        "rating": "3.92",
+        "noOfRatings": "13",
+        "price": "$39"
+    },
+    {
+        "name": "Pinflux - Best Pinterest Marketing and Automation Tool",
+        "category": "Social media",
+        "shortDescription": "Increase your buyer traffic from Pinterest on full automation within a few days using Pinflux.",
+        "rating": "4.12",
+        "noOfRatings": "17",
+        "price": "$99"
+    },
+    {
+        "name": "Focusmate Private Group Access",
+        "category": "Productivity",
+        "shortDescription": "Focusmate is an online coworking platform that helps you beat distractions and get things done",
+        "rating": null,
+        "noOfRatings": null,
+        "price": "FREE"
+    },
+    {
+        "name": "Reading Indicator — Reading Progress Bar for WordPress",
+        "category": "Visual design",
+        "shortDescription": "This is a visual indicator of how far along you are in your reading of an article",
+        "rating": "5",
+        "noOfRatings": "6",
+        "price": "$12"
+    },
+    {
+        "name": "AI Toolbar",
+        "category": "Productivity",
+        "shortDescription": "Use voice commands, access more ChatGPT tools, and reply to emails with your AI copilot",
+        "rating": "3",
+        "noOfRatings": "3",
+        "price": "$49"
+    },
+    {
+        "name": "DijiBot",
+        "category": "Development tools",
+        "shortDescription": "Automates daily content for growth.It's a fully auto system for webmasters to simplify daily tasks.",
+        "rating": "4.5",
+        "noOfRatings": "14",
+        "price": "$70"
+    },
+    {
+        "name": "EasySpeak",
+        "category": "Video",
+        "shortDescription": "Create videos confidently and deliver flawless messages with our app—never forget your lines",
+        "rating": "4",
+        "noOfRatings": "4",
+        "price": "$29"
+    },
+    {
+        "name": "Airloupe",
+        "category": "Media management",
+        "shortDescription": "Airloupe is a platform for creators and photographers to share, proof, and sell photos and videos",
+        "rating": "3.71",
+        "noOfRatings": "24",
+        "price": "$9"
+    },
+    {
+        "name": "Human Presence",
+        "category": "Security",
+        "shortDescription": "Human Presence stops form spam on WordPress without reCaptcha.",
+        "rating": "4.27",
+        "noOfRatings": "15",
+        "price": "$99"
+    },
+    {
+        "name": "TalentSheets",
+        "category": "Media management",
+        "shortDescription": "You don't need deep pocketed investors, expensive technology platforms, or massive budgets to do influencer marketing well. And, frankly, most influencer platforms are either too expensive or lack functionality and flexibility, so users end up reverting back to Google Sheets anyway. TalentSheets was",
+        "rating": "4.2",
+        "noOfRatings": "10",
+        "price": "$59"
+    },
+    {
+        "name": "Aicoosoft Video Converter",
+        "category": "Development tools",
+        "shortDescription": "Convert, edit, compress, download, record videos, and convert DVD efficiently",
+        "rating": "4.09",
+        "noOfRatings": "34",
+        "price": "$29"
+    },
+    {
+        "name": "Woooplugin",
+        "category": "Productivity",
+        "shortDescription": "Woooplugin toolkit helps you to set up your online store easily and save your time",
+        "rating": "5",
+        "noOfRatings": "1",
+        "price": "$39"
+    },
+    {
+        "name": "CleverSlides",
+        "category": "Productivity",
+        "shortDescription": "Create captivating slides with AI-generated content: fast, impressive, copyright-free, & effortless",
+        "rating": "3.69",
+        "noOfRatings": "26",
+        "price": "$9"
+    },
+    {
+        "name": "JobProfile",
+        "category": "Form builders",
+        "shortDescription": "Our AI resume builder app makes it easy to create professional resumes that will impress employers",
+        "rating": "3.5",
+        "noOfRatings": "10",
+        "price": "$19"
+    },
+    {
+        "name": "Authorsy",
+        "category": "Content marketing",
+        "shortDescription": "Streamline author management with powerful bio and content tools for WordPress blogs",
+        "rating": "5",
+        "noOfRatings": "1",
+        "price": "$39"
+    },
+    {
+        "name": "KingSumo - Plus exclusive",
+        "category": "Lead generation",
+        "shortDescription": "Grow your audience with viral giveaways that cut marketing costs",
+        "rating": null,
+        "noOfRatings": null,
+        "price": "FREE"
+    },
+    {
+        "name": "FuturePerfect",
+        "category": "SEO",
+        "shortDescription": "Perfect your website with continuous AI grammar and spelling checks",
+        "rating": "5",
+        "noOfRatings": "2",
+        "price": "$19"
+    },
+    {
+        "name": "Meeting Reminders",
+        "category": "Calendar & scheduling",
+        "shortDescription": "One-click notifications for email, SMS and WhatsApp. And now schedule reminders ahead of time.",
+        "rating": "4",
+        "noOfRatings": "4",
+        "price": "$9"
+    },
+    {
+        "name": "Mail Rocket",
+        "category": "Email marketing",
+        "shortDescription": "Create a mail merge with Gmail and Google Sheets",
+        "rating": "3",
+        "noOfRatings": "2",
+        "price": "$29"
+    },
+    {
+        "name": "AWZ Screen Recorder",
+        "category": "Video",
+        "shortDescription": "AWZ Screen Recorder helps you capture everything on your screen for Windows",
+        "rating": "3.71",
+        "noOfRatings": "7",
+        "price": "$9"
+    },
+    {
+        "name": "Brizy Design Kit",
+        "category": "Web builders",
+        "shortDescription": "UI design in way less time with stunning premade site blocks and content",
+        "rating": null,
+        "noOfRatings": null,
+        "price": "FREE"
+    },
+    {
+        "name": "The Viral Content Templates™",
+        "category": "Content marketing",
+        "shortDescription": "100+ social media Canva templates that are proven to go viral",
+        "rating": "4.05",
+        "noOfRatings": "21",
+        "price": "$29.99"
+    },
+    {
+        "name": "Diffus",
+        "category": "Visual design",
+        "shortDescription": "Use pre-trained AI models to generate art with more precision and control",
+        "rating": "1.67",
+        "noOfRatings": "3",
+        "price": "$59"
+    },
+    {
+        "name": "Gumbamail",
+        "category": "Email marketing",
+        "shortDescription": "A mail merger to personalize and send mass emails quickly within Gmail",
+        "rating": "3.5",
+        "noOfRatings": "22",
+        "price": "$29"
+    },
+    {
+        "name": "GoEmailTracker",
+        "category": "Email marketing",
+        "shortDescription": "Track, analyze, and optimize your emails with real-time insights",
+        "rating": "4",
+        "noOfRatings": "3",
+        "price": "$19"
+    },
+    {
+        "name": "Crafttor",
+        "category": "Media management",
+        "shortDescription": "Be a part of 50K+ designers and teams using our DAM to increase their productivity and collaboration",
+        "rating": "3",
+        "noOfRatings": "2",
+        "price": "$49"
+    },
+    {
+        "name": "TubeTarget - Find Perfectly Targeted Videos and Channels for YouTube Ads",
+        "category": "Lead generation",
+        "shortDescription": "Get unlimited leads with quality buyer traffic from YouTube ads with the best targeting options.",
+        "rating": "3.83",
+        "noOfRatings": "12",
+        "price": "$99"
+    },
+    {
+        "name": "Lando AI",
+        "category": "Web builders",
+        "shortDescription": "Effortless mobile app landing pages now, ultimate app creation solution with lifetime updates",
+        "rating": "4.33",
+        "noOfRatings": "3",
+        "price": "$19"
+    },
+    {
+        "name": "CoolCut",
+        "category": "Audio",
+        "shortDescription": "Powerful video editing software, one-stop application, beginner-friendly and no experience required",
+        "rating": "4",
+        "noOfRatings": "2",
+        "price": "$29"
+    },
+    {
+        "name": "Lapse",
+        "category": "Video",
+        "shortDescription": "Timelapse screen recorder. Intuitive interface, adjustable settings, no editing needed.",
+        "rating": "3.76",
+        "noOfRatings": "17",
+        "price": "$9.99"
+    },
+    {
+        "name": "The Sauce - Plus exclusive",
+        "category": "Community builders",
+        "shortDescription": "Join this private business community for tech-savvy entrepreneurs to grow your business fast",
+        "rating": null,
+        "noOfRatings": null,
+        "price": "FREE"
+    },
+    {
+        "name": "PingSuite",
+        "category": "Website analytics",
+        "shortDescription": "Monitor the performance and functionality of your website and get notified when it goes down",
+        "rating": "4.33",
+        "noOfRatings": "3",
+        "price": "$49"
+    },
+    {
+        "name": "Super Logo",
+        "category": "Visual design",
+        "shortDescription": "Generated industry-specific logo in several clicks without designing skill",
+        "rating": "3.4",
+        "noOfRatings": "5",
+        "price": "$19"
+    },
+    {
+        "name": "OwlStat",
+        "category": "Social media",
+        "shortDescription": "Instagram analytics made easy",
+        "rating": "5",
+        "noOfRatings": "1",
+        "price": "$49"
+    },
+    {
+        "name": "Starbox PRO",
+        "category": "Lead generation",
+        "shortDescription": "Use this WordPress plugin to design an eye-catching author bio that fits your blog’s aesthetic",
+        "rating": "4.2",
+        "noOfRatings": "5",
+        "price": "$49"
+    },
+    {
+        "name": "GraphDev",
+        "category": "Development tools",
+        "shortDescription": "The modern toolkit for GraphQL development: intelligent at it's core with Schema-Aware AI",
+        "rating": "3",
+        "noOfRatings": "1",
+        "price": "$29"
+    },
+    {
+        "name": "Intellifluence",
+        "category": "Social proof",
+        "shortDescription": "Find influencers, create campaigns, and boost awareness in one easy-to-use platform",
+        "rating": null,
+        "noOfRatings": null,
+        "price": "FREE"
+    },
+    {
+        "name": "Only Sheets 2.0 by Better Sheets",
+        "category": "Ecommerce",
+        "shortDescription": "Sell Your Google Sheets. Protect your sheets while you sell your sheets via Stripe, Zapier, Gumroad.",
+        "rating": "5",
+        "noOfRatings": "1",
+        "price": "$30"
+    },
+    {
+        "name": "Notion Template Creator Dashboard",
+        "category": "Project management",
+        "shortDescription": "The ultimate dashboard for Notion creators to build templates and grow their brand on social media",
+        "rating": "3",
+        "noOfRatings": "2",
+        "price": "$9"
+    },
+    {
+        "name": "AdTrax",
+        "category": "Audio",
+        "shortDescription": "AdTrax are purpose-built soundtracks enabling you to test and iterate faster without sacrificing production value.",
+        "rating": "5",
+        "noOfRatings": "1",
+        "price": "$49"
+    },
+    {
+        "name": "UpBack",
+        "category": "Cloud services & hosting",
+        "shortDescription": "Secure, automated backup and recovery for MySQL, MariaDB, and PostgreSQL",
+        "rating": "3",
+        "noOfRatings": "1",
+        "price": "$49"
+    },
+    {
+        "name": "Automatic Email Manager",
+        "category": "Productivity",
+        "shortDescription": "Take care of repetitive tasks with your emails and attachments",
+        "rating": "5",
+        "noOfRatings": "1",
+        "price": "$74"
+    },
+    {
+        "name": "vConnect",
+        "category": "Remote collaboration",
+        "shortDescription": "Ready to use & customizable white label video conferencing script",
+        "rating": "3",
+        "noOfRatings": "2",
+        "price": "$49"
+    },
+    {
+        "name": "MyLnker",
+        "category": "Web builders",
+        "shortDescription": "Your bio link for selling, connecting, and business",
+        "rating": "3",
+        "noOfRatings": "1",
+        "price": "$29"
+    },
+    {
+        "name": "Prospety",
+        "category": "Lead generation",
+        "shortDescription": "Discover social media profiles and their contact information with Prospety",
+        "rating": "3.33",
+        "noOfRatings": "6",
+        "price": "$10"
+    },
+    {
+        "name": "PDF-API.io",
+        "category": "Cloud services & hosting",
+        "shortDescription": "Automate and customize professional PDFs with an intuitive drag-and-drop and HTML editor",
+        "rating": null,
+        "noOfRatings": null,
+        "price": "$59"
+    },
+    {
+        "name": "Allarmia",
+        "category": "Security",
+        "shortDescription": "Track and manage alerts, domains, and SSL certificates—all in one powerful app",
+        "rating": null,
+        "noOfRatings": null,
+        "price": "$39"
+    },
+    {
+        "name": "Flightpath Finance",
+        "category": "Financial analytics",
+        "shortDescription": "Financial modeling software for SaaS companies to get better visibility into your company's future",
+        "rating": null,
+        "noOfRatings": null,
+        "price": "$49"
+    },
+    {
+        "name": "CXAssist",
+        "category": "Email management",
+        "shortDescription": "Al-powered email responses to save time, increase customer satisfaction, and drive more sales",
+        "rating": null,
+        "noOfRatings": null,
+        "price": "$39"
+    },
+    {
+        "name": "Cloudshot",
+        "category": "Cloud services & hosting",
+        "shortDescription": "Simplify and automate your cloud infrastructure management",
+        "rating": null,
+        "noOfRatings": null,
+        "price": "$39"
+    },
+    {
+        "name": "roombriks",
+        "category": "Sales management",
+        "shortDescription": "Win sales deals & onboard customers in one space. Deal rooms, project hubs, client portals and more.",
+        "rating": null,
+        "noOfRatings": null,
+        "price": "$49"
+    },
+    {
+        "name": "Slidebeast",
+        "category": "Marketing management",
+        "shortDescription": "Transform your marketing data to PPTX in minutes",
+        "rating": null,
+        "noOfRatings": null,
+        "price": "$59"
+    },
+    {
+        "name": "NuxtStarter AI",
+        "category": "Web builders",
+        "shortDescription": "NuxtStarter AI is a Nuxtjs boilerplate that contains everything for developing your AI SaaS app",
+        "rating": null,
+        "noOfRatings": null,
+        "price": "$59"
+    },
+    {
+        "name": "Easyfill.ai",
+        "category": "Productivity",
+        "shortDescription": "Easily convert paper forms to online fillables or with our AI-powered tool create forms in seconds",
+        "rating": null,
+        "noOfRatings": null,
+        "price": "$49"
+    },
+    {
+        "name": "Clofio",
+        "category": "Cloud services & hosting",
+        "shortDescription": "Simplify and optimize your cloud spend with comprehensive cost management tools in one dashboard",
+        "rating": null,
+        "noOfRatings": null,
+        "price": "$49"
+    },
+    {
+        "name": "ShopCred Pro",
+        "category": "Ecommerce",
+        "shortDescription": "Customize WooCommerce pages with comprehensive Gutenberg blocks and WooCommerce Builder",
+        "rating": null,
+        "noOfRatings": null,
+        "price": "$39"
+    },
+    {
+        "name": "ShopCred Addons",
+        "category": "Ecommerce",
+        "shortDescription": "Variation Swatches, Wishlist, Products Comparison, Stock Progress Bar, Direct Checkout, Quick View..",
+        "rating": null,
+        "noOfRatings": null,
+        "price": "$39"
+    },
+    {
+        "name": "Engage",
+        "category": "Lead generation",
+        "shortDescription": "Create interactive, data-driven forms to boost engagement and gather actionable insights",
+        "rating": null,
+        "noOfRatings": null,
+        "price": "$49"
+    },
+    {
+        "name": "AgencyDots",
+        "category": "Project management",
+        "shortDescription": "We help companies managing multiple software projects gain control over their client portfolios",
+        "rating": null,
+        "noOfRatings": null,
+        "price": "$49"
+    },
+    {
+        "name": "Elementor Query Builder",
+        "category": "Development tools",
+        "shortDescription": "Custom query with Elementor without any coding required",
+        "rating": null,
+        "noOfRatings": null,
+        "price": "$69"
+    },
+    {
+        "name": "GeotargetingWP",
+        "category": "Content marketing",
+        "shortDescription": "The most complete solution to geotarget your WordPress sites!",
+        "rating": null,
+        "noOfRatings": null,
+        "price": "$69"
+    }
+]
