@@ -1,3 +1,11 @@
+import sys
+from pathlib import Path
+
+# Add the project root to the Python path
+project_root = Path(__file__).resolve().parent.parent.parent
+sys.path.append(str(project_root))
+print(project_root)
+
 import asyncio
 import json
 from typing import Dict, Any, List
@@ -5,6 +13,7 @@ from pydantic import BaseModel, Field
 from openai import OpenAI
 from crawl4ai import AsyncWebCrawler
 from crawl4ai.extraction_strategy import JsonCssExtractionStrategy
+from db.client import supabase
 from tqdm import tqdm  # Import tqdm for progress bar
 
 # Pydantic model for refined product info
@@ -13,7 +22,7 @@ class RefinedProductInfo(BaseModel):
     refined_description: str = Field(description="Combined key points from the description, key features, audience, integrations, and alternatives it is replacing")
     potential_usecases: List[str] = Field(description="A few potential use cases where this product would be extremely useful, especially when combined with other technologies")
     ideal_users: List[str] = Field(description="Refined list of ideal customers facing specific issues that will use this product")
-    scenarios_where_tool_excels: List[str] = Field(description="Predicted scenarios where this tool stands out and solves specific problems")
+    ideal_scenarios: List[str] = Field(description="Predicted scenarios where this tool stands out and solves specific problems")
     integration_potential: List[str] = Field(description="Predicted ways this tool can effectively integrate with other tools and platforms")
     tags: List[str] = Field(description="Key feature tags to categorize the product")
 
@@ -93,24 +102,32 @@ async def scrape_appsumo_product_page(url: str) -> Dict[str, Any]:
         return product_info[0]
 
 async def refine_product_info(product_info: Dict[str, Any]) -> RefinedProductInfo:
-    del product_info["summaryOfReviews"]
+    print(f"Refining product info: {product_info['name']} with an llm")
+    if "summaryOfReviews" in product_info:
+        del product_info["summaryOfReviews"]
     prompt = REFINEMENT_PROMPT.format(product_info=json.dumps(product_info, indent=2))
 
-    response = client.beta.chat.completions.parse(
-        model="gpt-4o-mini",  # Replace with your preferred model
+    try:
+        response = client.beta.chat.completions.parse(
+            model="gpt-4o-mini",  # Replace with your preferred model
         messages=[
             {"role": "system", "content": "You are a helpful AI assistant that analyzes product information and provides refined insights."},
             {"role": "user", "content": prompt}
         ],
         temperature=0.7,
-        response_format=RefinedProductInfo,
-    )
+            response_format=RefinedProductInfo,
+        )
 
-    return response.choices[0].message.parsed
+        return response.choices[0].message.parsed
+    except Exception as e:
+        print(f"Error refining product info: {e}")
+        return None
 
 async def scrape_pipeline(product: dict) -> dict:
-    scraped_product_info = await scrape_appsumo_product_page(product["url"])
-    product["reviewsSummary"] = scraped_product_info["summaryOfReviews"]
+    url = product["url"]
+    scraped_product_info = await scrape_appsumo_product_page(url)
+    if "summaryOfReviews" in scraped_product_info:
+        product["reviews_summary"] = scraped_product_info["summaryOfReviews"]
     product["name"] = scraped_product_info["name"]
 
     refined_product_info = await refine_product_info(scraped_product_info)
@@ -123,23 +140,52 @@ async def main(products: List[Dict[str, Any]]):
     progress_bar = tqdm(total=total_products, desc="Processing products")
     
     async def process_product(product):
+        if product["url"] is None:
+            print(f"Skipping product {product['name']} because it has no URL")
+            return None
         result = await scrape_pipeline(product)
+        # Parse certain fields into int
+        if result["no_of_ratings"] is not None: 
+            result["no_of_ratings"] = int(result["no_of_ratings"].replace(",", ""))
+        else:
+            result["no_of_ratings"] = 0 
+        if result["rating"] is not None:
+            result["rating"] = float(result["rating"])
+        else:
+            result["rating"] = 0
+        if result["price"] != "FREE":
+            result["price"] = float(result["price"].replace("$", ""))
+        else:
+            result["price"] = 0
+
+        # Insert into supabase
+        try:
+            response = supabase.table("appsumo_products").insert(result).execute()
+            print(f"Inserted product into supabase: {response}")
+        except Exception as e:
+            print(f"Error inserting product into supabase: {e}")
+
         progress_bar.update(1)
         return result
 
-    tasks = [process_product(product) for product in products]
-    results = await asyncio.gather(*tasks)
+    results = []
+    batch_size = 5
+    for i in range(0, total_products, batch_size):
+        batch = products[i:i+batch_size]
+        tasks = [process_product(product) for product in batch]
+        batch_results = await asyncio.gather(*tasks)
+        results.extend(batch_results)
     
     progress_bar.close()
     return results
 
 if __name__ == "__main__":
     # Load products from JSON file
-    with open("scrape_scripts/appsumo/appsumo-products.json", 'r') as file:
+    with open(f"{project_root}/scrape_pipelines/appsumo/setup/appsumo-products.json", 'r') as file:
         all_products = json.load(file)
 
     print(f"Starting to process {len(all_products)} products...")
-    results = asyncio.run(main(all_products[:5]))  # Process all products
+    results = asyncio.run(main(all_products))  # Process all products
 
     # Save results to a JSON file
     with open('refined_appsumo_products.json', 'w') as f:
