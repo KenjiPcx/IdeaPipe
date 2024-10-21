@@ -1,33 +1,17 @@
-from fastapi import FastAPI, HTTPException
-from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel
-import asyncio
-import json
-from datetime import datetime, timedelta
-from typing import List, Dict, Any
+from ideagen.db.operations import batch_add_reddit_problems, batch_add_appsumo_solutions
+from fastapi import FastAPI
+from app.api import matching
+
+def process_reddit_data():
+    batch_add_reddit_problems('ideagen/scrape_pipelines/reddit/refined_reddit_posts.json')
+
+def process_appsumo_data():
+    batch_add_appsumo_solutions('ideagen/scrape_pipelines/appsumo/setup/appsumo-products.json')
+
+if __name__ == "__main__":
+    process_reddit_data()
+    process_appsumo_data()
 
 app = FastAPI()
 
-# Add CORS middleware
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
-# Global variable to store the last scrape time
-last_scrape_time = None
-scrape_results = None
-
-class ScrapedData(BaseModel):
-    results: List[Dict[str, Any]]
-
-@app.get("/")
-def read_root():
-    return {"Hello": "World"}
-
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+app.include_router(matching.router, prefix="/api")
