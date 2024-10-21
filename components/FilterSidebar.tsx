@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from 'react';
 
 interface FilterSidebarProps {
@@ -6,61 +7,63 @@ interface FilterSidebarProps {
   onFilterChange: (filters: { categories: string[], difficulties: string[] }) => void;
 }
 
-export default function FilterSidebar({ categories, difficulties, onFilterChange }: FilterSidebarProps) {
-  const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
-  const [selectedDifficulties, setSelectedDifficulties] = useState<string[]>([]);
+const FilterSidebar = ({ categories, difficulties, onFilterChange }: FilterSidebarProps) => {
+  const [selectedCategories, setSelectedCategories] = useState([]);
+  const [selectedDifficulties, setSelectedDifficulties] = useState([]);
 
   const handleCategoryChange = (category: string) => {
-    const updatedCategories = selectedCategories.includes(category)
-      ? selectedCategories.filter(c => c !== category)
-      : [...selectedCategories, category];
-    setSelectedCategories(updatedCategories);
-    onFilterChange({ categories: updatedCategories, difficulties: selectedDifficulties });
+    setSelectedCategories(prev => 
+      prev.includes(category) ? prev.filter(c => c !== category) : [...prev, category]
+    );
   };
 
   const handleDifficultyChange = (difficulty: string) => {
-    const updatedDifficulties = selectedDifficulties.includes(difficulty)
-      ? selectedDifficulties.filter(d => d !== difficulty)
-      : [...selectedDifficulties, difficulty];
-    setSelectedDifficulties(updatedDifficulties);
-    onFilterChange({ categories: selectedCategories, difficulties: updatedDifficulties });
+    setSelectedDifficulties(prev => 
+      prev.includes(difficulty) ? prev.filter(d => d !== difficulty) : [...prev, difficulty]
+    );
+  };
+
+  const applyFilters = () => {
+    onFilterChange({ categories: selectedCategories, difficulties: selectedDifficulties });
   };
 
   return (
-    <div className="w-64 bg-white shadow-md rounded-lg p-6">
-      <h2 className="text-xl font-semibold mb-4">Filters</h2>
-      
-      <div className="mb-6">
+    <div className="space-y-4">
+      <h2 className="text-lg font-semibold">Filters</h2>
+      <div>
         <h3 className="font-medium mb-2">Categories</h3>
-        {categories.map(category => (
-          <div key={category} className="flex items-center mb-2">
+        {categories.map((category) => (
+          <label key={category} className="flex items-center space-x-2">
             <input
               type="checkbox"
-              id={`category-${category}`}
               checked={selectedCategories.includes(category)}
               onChange={() => handleCategoryChange(category)}
-              className="mr-2"
             />
-            <label htmlFor={`category-${category}`}>{category}</label>
-          </div>
+            <span>{category}</span>
+          </label>
         ))}
       </div>
-
       <div>
         <h3 className="font-medium mb-2">Difficulty</h3>
-        {difficulties.map(difficulty => (
-          <div key={difficulty} className="flex items-center mb-2">
+        {difficulties.map((difficulty) => (
+          <label key={difficulty} className="flex items-center space-x-2">
             <input
               type="checkbox"
-              id={`difficulty-${difficulty}`}
               checked={selectedDifficulties.includes(difficulty)}
               onChange={() => handleDifficultyChange(difficulty)}
-              className="mr-2"
             />
-            <label htmlFor={`difficulty-${difficulty}`}>{difficulty}</label>
-          </div>
+            <span>{difficulty}</span>
+          </label>
         ))}
       </div>
+      <button
+        onClick={applyFilters}
+        className="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600"
+      >
+        Apply Filters
+      </button>
     </div>
   );
-}
+};
+
+export default FilterSidebar;

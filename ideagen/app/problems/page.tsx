@@ -1,6 +1,7 @@
 'use client';
 
-import React, { useState } from 'react';
+import React from 'react';
+import { useState } from 'react';
 import { mockProblems } from '@/data/mockProblems';
 import ProblemGrid from '@/components/ProblemGrid';
 import FilterSidebar from '@/components/FilterSidebar';
@@ -22,15 +23,13 @@ const ProblemsPage: React.FC = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <h1 className="text-3xl font-bold mb-8">Explore Problems</h1>
-      <div className="flex flex-col md:flex-row gap-8">
-        <div className="w-full md:w-1/4">
-          <FilterSidebar 
-            categories={categories} 
-            difficulties={difficulties} 
-            onFilterChange={handleFilterChange} 
-          />
-        </div>
-        <div className="w-full md:w-3/4">
+      <div className="flex">
+        <FilterSidebar 
+          categories={categories} 
+          difficulties={difficulties} 
+          onFilterChange={handleFilterChange} 
+        />
+        <div className="ml-8 flex-grow">
           <ProblemGrid problems={filteredProblems} />
         </div>
       </div>

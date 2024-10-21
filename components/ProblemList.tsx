@@ -9,13 +9,13 @@ interface Problem {
   difficulty: string;
 }
 
-interface ProblemGridProps {
+interface ProblemListProps {
   problems: Problem[];
 }
 
-const ProblemGrid = ({ problems }: ProblemGridProps) => {
+const ProblemList: React.FC<ProblemListProps> = ({ problems }) => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+    <div>
       {problems.map((problem) => (
         <ProblemCard key={problem.id} {...problem} />
       ))}
@@ -23,4 +23,4 @@ const ProblemGrid = ({ problems }: ProblemGridProps) => {
   );
 };
 
-export default ProblemGrid;
+export default ProblemList;
