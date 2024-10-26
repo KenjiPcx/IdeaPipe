@@ -26,7 +26,8 @@
         "ms-python.python",
         "ms-python.black-formatter",
         "ms-python.vscode-flake8",
-        "ms-python.vscode-pylance"
+        "ms-python.vscode-pylance",
+        "cursor-ai.cursor"
       ],
       "settings": {
         "python.formatting.provider": "black",
