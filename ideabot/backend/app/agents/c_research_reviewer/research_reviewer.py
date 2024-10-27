@@ -7,7 +7,7 @@ from llama_index.core.chat_engine.types import ChatMessage
 from llama_index.core.tools import FunctionTool
 
 
-def _get_analyst_params() -> Tuple[List[type[FunctionTool]], str, str]:
+def _get_research_reviewer_params() -> Tuple[List[type[FunctionTool]], str, str]:
     tools = []
     prompt_instructions = dedent(
         """
@@ -35,11 +35,11 @@ def _get_analyst_params() -> Tuple[List[type[FunctionTool]], str, str]:
     return tools, prompt_instructions, description
 
 
-def create_user_proxy(chat_history: List[ChatMessage]):
-    tools, prompt_instructions, description = _get_analyst_params()
+def create_research_reviewer(chat_history: List[ChatMessage]):
+    tools, prompt_instructions, description = _get_research_reviewer_params()
 
     return FunctionCallingAgent(
-        name="user_proxy",
+        name="research_reviewer",
         tools=tools,
         description=description,
         system_prompt=dedent(prompt_instructions),

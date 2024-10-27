@@ -12,6 +12,9 @@ poetry install
 
 Then check the parameters that have been pre-configured in the `.env` file in this directory. (E.g. you might need to configure an `OPENAI_API_KEY` if you're using OpenAI as model provider and `E2B_API_KEY` for the [E2B's code interpreter tool](https://e2b.dev/docs)).
 
+| So far, we only need OpenAI API key, E2B API key, and Llama Cloud API key.
+
+| (Skip this step) 
 Second, generate the embeddings of the documents in the `./data` directory:
 
 ```shell
