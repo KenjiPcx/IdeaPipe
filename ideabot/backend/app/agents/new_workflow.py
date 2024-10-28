@@ -25,6 +25,7 @@ from llama_index.core.workflow import (
     step,
 )
 
+### High Level Events ###
 class QnaWorkflowEvent(Event):
     '''
     Fired when the user has a question for the AI
@@ -37,15 +38,53 @@ class ResearchWorkflowEvent(Event):
     '''
     input: str
 
-class GetMoreUserInfoEvent(Event):
-    '''
-    Fired when the problem definition agent needs more information from the user
-    '''
-    input: str
-
 class StartResearchPipelineEvent(Event):
     '''
     Fired when the user has provided enough information to start the research pipeline
+    '''
+    input: str
+
+class GetCritiqueEvent(Event):
+    '''
+    Fired when an analyst has completed their research and needs feedback
+    '''
+    input: str
+
+### Initial Research Events ###
+class CompetitorAnalysisCompleteEvent(Event):
+    '''
+    Fired when the competitor analysis is complete
+    '''
+    input: str
+
+class CustomerInsightsCompleteEvent(Event):
+    '''
+    Fired when the customer insights are complete
+    '''
+    input: str
+
+class OnlineTrendsCompleteEvent(Event):
+    '''
+    Fired when the online trends are complete
+    '''
+    input: str
+
+class MarketResearchCompleteEvent(Event):
+    '''
+    Fired when the market research is complete
+    '''
+    input: str
+
+class MarketResearchFeedbackEvent(Event):
+    '''
+    Fired when the market research critique gives feedback
+    '''
+    input: str
+
+### Feasibility Research Events ###
+class StartFeasibilityResearchEvent(Event):
+    '''
+    Fired when the user has provided enough information to start the feasibility research pipeline
     '''
     input: str
 
@@ -99,7 +138,7 @@ class IdeaResearchWorkflow(Workflow):
             return QnaWorkflowEvent(input=f"User input: {ev.input}")
 
     @step()
-    async def validate_problem_statement(self, ctx: Context, ev: ResearchWorkflowEvent) -> StopEvent:
+    async def validate_problem_statement(self, ctx: Context, ev: ResearchWorkflowEvent) -> StartResearchPipelineEvent | StopEvent:
         chat_history_str = "\n".join(
             [f"{msg.role}: {msg.content}" for msg in self.chat_history]
         )
@@ -118,9 +157,31 @@ class IdeaResearchWorkflow(Workflow):
         result = await Settings.llm.achat(messages)
         return StopEvent(result=result.content)
     
+    ### Initial Research Analysts Team 1 ###
     @step()
-    async def research_pipeline(self, ctx: Context, ev: StartResearchPipelineEvent) -> StopEvent:
-        return StopEvent(result=ev.input)
+    async def market_research(self, ctx: Context, ev: StartResearchPipelineEvent | MarketResearchCompleteEvent) -> GetCritiqueEvent:
+        return GetCritiqueEvent(input=ev.input)
+
+    @step()
+    async def critique_market_research(self, ctx: Context, ev: GetCritiqueEvent) -> MarketResearchCompleteEvent | MarketResearchFeedbackEvent:
+        return MarketResearchCompleteEvent(input=ev.input)
+
+
+    ### Collect Initial Research Feedback ###
+    @step()
+    async def review_initial_research(self, ctx: Context, ev: GetCritiqueEvent) -> StartFeasibilityResearchEvent:
+        print("Received event ", ev.result)
+
+        # wait until we receive 3 events
+        if (
+            ctx.collect_events(
+                ev,
+                [CompetitorAnalysisCompleteEvent, CustomerInsightsCompleteEvent, OnlineTrendsCompleteEvent],
+            )
+            is None
+        ):
+            return None
+        return StartFeasibilityResearchEvent(input=ev.input)
 
     async def run_agent(
         self,
@@ -140,7 +201,6 @@ class IdeaResearchWorkflow(Workflow):
 def create_idea_research_workflow(chat_history: Optional[List[ChatMessage]] = None, **kwargs):
     # Create all the necessary agents here
 
-    problem_definer_agent = create_problem_definer(chat_history=chat_history, **kwargs)
     # # Initial Research Team
     # market_research_agent = create_market_research_agent(chat_history=chat_history, **kwargs)
     # competitor_analysis_agent = create_competitor_analysis_agent(chat_history=chat_history, **kwargs)
