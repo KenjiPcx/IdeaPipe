@@ -64,12 +64,14 @@ def init_openai():
         model=os.getenv("MODEL", "gpt-4o-mini"),
         temperature=float(os.getenv("LLM_TEMPERATURE", DEFAULT_TEMPERATURE)),
         max_tokens=int(max_tokens) if max_tokens is not None else None,
+        api_key=os.getenv("OPENAI_API_KEY"),
     )
 
     dimensions = os.getenv("EMBEDDING_DIM")
     Settings.embed_model = OpenAIEmbedding(
         model=os.getenv("EMBEDDING_MODEL", "text-embedding-3-small"),
         dimensions=int(dimensions) if dimensions is not None else None,
+        api_key=os.getenv("OPENAI_API_KEY"),
     )
 
 
