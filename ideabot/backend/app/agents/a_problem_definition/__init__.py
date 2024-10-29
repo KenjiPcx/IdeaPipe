@@ -1,5 +1,6 @@
-from .problem_definer import create_problem_definer
+from .problem_validator import ProblemValidatorFeedback, problem_validator_prompt_instructions
 
 __all__ = [
-    "create_problem_definer",
+    "ProblemValidatorFeedback",
+    "problem_validator_prompt_instructions",
 ]
