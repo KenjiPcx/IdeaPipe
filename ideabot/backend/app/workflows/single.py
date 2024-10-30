@@ -136,6 +136,10 @@ class FunctionCallingAgent(Workflow):
                 result=AgentRunResult(response=response, sources=[*self.sources])
             )
         else:
+            if self.write_events:
+                ctx.write_event_to_stream(
+                    AgentRunEvent(name=self.name, msg="Calling tools: " + str(tool_calls))
+                )
             return ToolCallEvent(tool_calls=tool_calls)
 
     async def handle_llm_input_stream(
@@ -180,6 +184,10 @@ class FunctionCallingAgent(Workflow):
         if is_tool_call:
             full_response = await generator.__anext__()
             tool_calls = self.llm.get_tool_calls_from_response(full_response)
+            if self.write_events:
+                ctx.write_event_to_stream(
+                    AgentRunEvent(name=self.name, msg="Calling tools: " + str(tool_calls))
+                )
             return ToolCallEvent(tool_calls=tool_calls)
 
         # If we've reached here, it's not an immediate tool call, so we return the generator
@@ -238,6 +246,11 @@ class FunctionCallingAgent(Workflow):
 
         for msg in tool_msgs:
             self.memory.put(msg)
+
+            if self.write_events:
+                ctx.write_event_to_stream(
+                    AgentRunEvent(name=self.name, msg="Tool response: " + str(msg))
+                )
 
         chat_history = self.memory.get()
         return InputEvent(input=chat_history)

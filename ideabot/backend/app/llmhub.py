@@ -7,7 +7,7 @@ from llama_index.embeddings.openai import OpenAIEmbedding
 
 logger = logging.getLogger(__name__)
 
-DEFAULT_MODEL = "gpt-3.5-turbo"
+DEFAULT_MODEL = "gpt-4o-mini"
 DEFAULT_EMBEDDING_MODEL = "text-embedding-3-large"
 
 

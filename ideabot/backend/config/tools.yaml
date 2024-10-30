@@ -1,4 +1,6 @@
 local:
   document_generator: {}
   interpreter: {}
+  web_reader: {}
+  tavily: {}
 llamahub: {}

@@ -6,7 +6,6 @@ import yaml  # type: ignore
 from llama_index.core.tools.function_tool import FunctionTool
 from llama_index.core.tools.tool_spec.base import BaseToolSpec
 
-
 class ToolType:
     LLAMAHUB = "llamahub"
     LOCAL = "local"
@@ -14,7 +13,7 @@ class ToolType:
 
 class ToolFactory:
     TOOL_SOURCE_PACKAGE_MAP = {
-        ToolType.LLAMAHUB: "llama_index.tools",
+        ToolType.LLAMAHUB: "llama_hub.tools",
         ToolType.LOCAL: "app.engine.tools",
     }
 
@@ -60,8 +59,8 @@ class ToolFactory:
             {} if map_result else []
         )
 
-        if os.path.exists("config/tools.yaml"):
-            with open("config/tools.yaml", "r") as f:
+        if os.path.exists("/home/kenji/hack-projects/market-res-agent/ideabot/backend/config/tools.yaml"):
+            with open("/home/kenji/hack-projects/market-res-agent/ideabot/backend/config/tools.yaml", "r") as f:
                 tool_configs = yaml.safe_load(f)
                 for tool_type, config_entries in tool_configs.items():
                     for tool_name, config in config_entries.items():
@@ -74,3 +73,8 @@ class ToolFactory:
                             tools.extend(loaded_tools)  # type: ignore
 
         return tools
+
+if __name__ == "__main__":
+    from dotenv import load_dotenv
+    load_dotenv()
+    print(ToolFactory.from_env(map_result=True))

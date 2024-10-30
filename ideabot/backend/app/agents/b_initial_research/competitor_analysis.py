@@ -6,91 +6,71 @@ from app.workflows.single import FunctionCallingAgent
 from llama_index.core.chat_engine.types import ChatMessage
 from llama_index.core.tools import FunctionTool
 
-
-def _create_competitor_search_tool():
-    def find_competitors(industry: str, market_segment: str) -> str:
-        """Mock tool to find direct and indirect competitors"""
-        return f"List of competitors in {industry} focusing on {market_segment}"
-    
-    return FunctionTool.from_defaults(fn=find_competitors)
-
-def _create_competitor_strength_tool():
-    def analyze_competitor_strength(competitor: str) -> dict:
-        """Mock tool to analyze competitor strengths and weaknesses"""
-        return {
-            "strengths": ["Example strength 1", "Example strength 2"],
-            "weaknesses": ["Example weakness 1", "Example weakness 2"],
-            "market_share": "X%",
-            "key_features": ["Feature 1", "Feature 2"]
-        }
-    
-    return FunctionTool.from_defaults(fn=analyze_competitor_strength)
-
-def _get_competitor_analysis_params() -> Tuple[List[type[FunctionTool]], str, str]:
-    tools = [
-        _create_competitor_search_tool(),
-        _create_competitor_strength_tool(),
-    ]
+def _get_competitor_analysis_params() -> Tuple[List[FunctionTool], str, str]:
+    tools = []
     
     prompt_instructions = dedent(
         """
-        You are an expert Competitive Intelligence Analyst specializing in market competition analysis.
+        You are an expert Competitive Intelligence Analyst. Using the provided problem description and proposed solution, analyze the competitive landscape.
+
+        Key Research Sources:
+        - ProductHunt (producthunt.com) => for SaaS products
+        - AppSumo (appsumo.com) => for SaaS products
+        - FutureTools.io => for SaaS products
+        - Google Search results => for both SaaS and non-SaaS products
         
-        Your responsibilities:
-        1. Identify direct and indirect competitors
-        2. Analyze competitor strengths and weaknesses
-        3. Map competitive landscape
-        4. Identify market gaps and opportunities
-        5. Assess competitive advantages
+        For each relevant competitor found (aim for 3-5 top competitors):
+
+        1. Core Solution Analysis
+           - Main features and functionality
+           - Key differentiators
+           - Target audience and use cases
+           - Pricing structure
         
-        Analysis Framework:
-        1. Direct Competitors
-           - Main players in the same space
-           - Their market share
-           - Key features/offerings
-           - Pricing strategies
-           
-        2. Indirect Competitors
-           - Alternative solutions
-           - Potential future competitors
-           - Adjacent market players
-           
-        3. Competitive Landscape
-           - Market positioning
-           - Value propositions
-           - Target audience overlap
-           
-        4. Gap Analysis
-           - Unmet customer needs
-           - Underserved segments
-           - Feature gaps
-           - Service quality gaps
-           
-        Format your response as:
-        1. Competitor Overview
-           - Direct competitors
-           - Indirect competitors
-           - Market leaders
-           
-        2. Competitive Analysis
-           - Strengths/weaknesses matrix
-           - Feature comparison
-           - Pricing comparison
-           
-        3. Market Gaps
-           - Unmet needs
-           - Opportunities
-           
-        4. Competitive Advantage
-           - Potential differentiators
-           - Barriers to entry
-           - Strategic recommendations
+        2. Market Reception
+           - User reviews and sentiment
+           - Major strengths/complaints
+           - Recent updates or changes
+           - Social proof (users, ratings)
         
-        Use available tools to gather and validate competitive intelligence data.
+        3. Strategic Insights
+           - Potential gaps or opportunities
+           - Unique approaches worth noting
+           - Pricing strategy insights
+           - Distribution channels used
+
+        ### Tools usage
+        1. Use the search tool to discover competitors. A tip is to suffix the search query with "startup", for example instead of just searching for "robot vacuum cleaner" you should search for "robot vacuum cleaner startup"
+        2. Use the web scraper tool to scrape information from the product websites. Only scrape pages that will have the full product information. This would be the product's main page, its entry in Product Hunt, AppSumo, FutureTools, etc.
+
+        ### Output
+        Conclude a report with:
+        - the top 3 competitors and their key differences with the proposed solution.
+        - 2-3 key opportunities or gaps in the market that could be exploited.
         """
     )
     
     description = "Expert in competitive analysis and market positioning"
+
+    configured_tools = ToolFactory.from_env(map_result=True)
+    # Check if the tavily search tool is configured
+    if "tavily" in configured_tools.keys():
+        tools.extend(configured_tools["tavily"])
+        prompt_instructions += dedent("""
+            You are able to search the web for information using the Tavily search tool.
+        """)
+        description += (
+            ", able to search the web for information using the Tavily search tool."
+        )
+    
+    if "web_reader" in configured_tools.keys():
+        tools.extend(configured_tools["web_reader"])
+        prompt_instructions += dedent("""
+            You are able to scrape the web for information using the web scraper tool.
+        """)
+        description += (
+            ", able to scrape the web for information using the web scraper tool."
+        )
     
     return tools, prompt_instructions, description
 
