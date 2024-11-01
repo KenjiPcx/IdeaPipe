@@ -1,0 +1,2 @@
+Deployed output folder:
+This is just a test file to check if the output folder is deployed correctly.
