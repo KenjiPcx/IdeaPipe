@@ -1,4 +1,5 @@
 local:
   document_generator: {}
   interpreter: {}
+  email: {}
 llamahub: {}

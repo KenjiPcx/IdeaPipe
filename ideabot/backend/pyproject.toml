@@ -23,6 +23,7 @@ markdown = "^3.7"
 e2b_code_interpreter = "0.0.11b38"
 llama-index-utils-workflow = "^0.2.2"
 ipykernel = "^6.29.5"
+sendgrid = "^6.11.0"
 
 [tool.poetry.dependencies.uvicorn]
 extras = [ "standard" ]

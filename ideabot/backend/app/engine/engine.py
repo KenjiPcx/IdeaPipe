@@ -6,7 +6,7 @@ from llama_index.core.workflow import Workflow
 
 
 def get_chat_engine(
-    chat_history: Optional[List[ChatMessage]] = None, **kwargs
+    chat_history: Optional[List[ChatMessage]] = None, email: Optional[str] = None, **kwargs
 ) -> Workflow:
-    agent_workflow = create_workflow(chat_history, **kwargs)
+    agent_workflow = create_workflow(chat_history, email, **kwargs)
     return agent_workflow

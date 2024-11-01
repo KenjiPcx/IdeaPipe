@@ -27,7 +27,8 @@ async def chat(
         # ignore chat params and use all documents for now
         # TODO: generate filters based on doc_ids
         params = data.data or {}
-        engine = get_chat_engine(chat_history=messages, params=params)
+        logger.info(f"Email: {data.email}")
+        engine = get_chat_engine(chat_history=messages, email=data.email, params=params)
 
         event_handler = engine.run(input=last_message_content, streaming=True)
         return VercelStreamResponse(

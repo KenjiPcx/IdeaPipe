@@ -9,6 +9,7 @@ from llama_index.core.tools import BaseTool
 
 def _get_reporter_params(
     chat_history: List[ChatMessage],
+    email: str,
 ) -> Tuple[List[type[BaseTool]], str, str]:
     tools: List[type[BaseTool]] = []
     description = "Expert in representing a financial report"
@@ -30,11 +31,15 @@ def _get_reporter_params(
             "\nYou are also able to generate a file document (PDF/HTML) of the report."
         )
         description += " and generate a file document (PDF/HTML) of the report."
+    if email and email != "":
+        prompt_instructions += f"\nSend the report to the following email address: {email} when complete, attach the file document (PDF/HTML) of the report."
+        if "email" in configured_tools:
+            tools.extend(configured_tools["email"])
     return tools, description, prompt_instructions
 
 
-def create_reporter(chat_history: List[ChatMessage]):
-    tools, description, prompt_instructions = _get_reporter_params(chat_history)
+def create_reporter(chat_history: List[ChatMessage], email: str):
+    tools, description, prompt_instructions = _get_reporter_params(chat_history, email)
     return FunctionCallingAgent(
         name="reporter",
         tools=tools,
