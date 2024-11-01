@@ -107,6 +107,7 @@ class Message(BaseModel):
 class ChatData(BaseModel):
     messages: List[Message]
     data: Any = None
+    email: str | None = None
 
     class Config:
         json_schema_extra = {

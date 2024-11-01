@@ -18,7 +18,9 @@ from llama_index.core.workflow import (
 )
 
 
-def create_workflow(chat_history: Optional[List[ChatMessage]] = None, **kwargs):
+def create_workflow(
+    chat_history: Optional[List[ChatMessage]] = None, email: Optional[str] = None, **kwargs
+):
     researcher = create_researcher(
         chat_history=chat_history,
         **kwargs,
@@ -26,7 +28,7 @@ def create_workflow(chat_history: Optional[List[ChatMessage]] = None, **kwargs):
 
     analyst = create_analyst(chat_history=chat_history)
 
-    reporter = create_reporter(chat_history=chat_history)
+    reporter = create_reporter(chat_history=chat_history, email=email)
 
     workflow = FinancialReportWorkflow(timeout=360, chat_history=chat_history)
 
